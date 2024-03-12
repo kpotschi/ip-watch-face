@@ -1,0 +1,99 @@
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 1; ]
+import Toybox.Lang;
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 2; ]
+using Toybox.WatchUi;
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 3; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 5; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 7; ]
+module Rez {
+    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 8; ]
+    module Drawables {
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 8; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        var IpLogo as ResourceId;
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 10; @position = 27; initialized = true; ]
+        var LauncherIcon as ResourceId;
+    }
+    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 13; ]
+    module Layouts {
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 13; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 14; ]
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+_Users_kevinpotschien_Coding_irregularPractice_bin_gen_006_B2886_00_source_Rez_mcgen_14_74_19_8_start:
+[ "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" 15 12 ]
+            [ "_Users_kevinpotschien_Coding_irregularPractice_bin_gen_006_B2886_00_source_Rez_mcgen_14_74_19_8_start" "_Users_kevinpotschien_Coding_irregularPractice_bin_gen_006_B2886_00_source_Rez_mcgen_14_74_19_8_stop" ]
+            %rez_cmp_local_bitmap_IpLogo.1 = local;
+            %tmp.3 = getm $.Toybox.WatchUi;
+            %tmp.4 = getv function ? %tmp.3 :Bitmap;
+            %tmp.5 = newd 4;
+            %tmp.7 = const :identifier;
+            %tmp.8 = "IpLogo";
+            %tmp.9 = dup %tmp.5;
+            %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
+            %tmp.12 = const :rezId;
+            %tmp.13 = getm $;
+            %tmp.14 = getv %tmp.13 :Rez;
+            %tmp.15 = getv %tmp.14 :Drawables;
+            %tmp.16 = getv %tmp.15 :IpLogo;
+            %tmp.17 = dup %tmp.10;
+            %tmp.18 = aputv %tmp.17 %tmp.12 %tmp.16;
+            %tmp.20 = const :locX;
+            %tmp.21 = getm $.Toybox.WatchUi;
+            %tmp.22 = getv %tmp.21 :LAYOUT_HALIGN_CENTER;
+            %tmp.23 = dup %tmp.18;
+            %tmp.24 = aputv %tmp.23 %tmp.20 %tmp.22;
+            %tmp.26 = const :locY;
+            %tmp.27 = getm $.Toybox.WatchUi;
+            %tmp.28 = getv %tmp.27 :LAYOUT_VALIGN_CENTER;
+            %tmp.29 = dup %tmp.24;
+            %tmp.30 = aputv %tmp.29 %tmp.26 %tmp.28;
+            %tmp.1 = newc %tmp.4 (%tmp.30);
+            lputv %rez_cmp_local_bitmap_IpLogo.1 %tmp.1;
+[ "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" 16 12 ]
+            %tmp.31 = lgetv %rez_cmp_local_bitmap_IpLogo.1;
+            %tmp.32 = getv function %tmp.31 :setLocation;
+            %tmp.33 = 240;
+            %tmp.34 = lgetv %rez_cmp_local_bitmap_IpLogo.1;
+            %tmp.35 = getv %tmp.34 :width;
+            %tmp.36 = sub %tmp.33 %tmp.35;
+            %tmp.37 = 0.5;
+            %tmp.38 = mul %tmp.36 %tmp.37;
+            %tmp.39 = 240;
+            %tmp.40 = lgetv %rez_cmp_local_bitmap_IpLogo.1;
+            %tmp.41 = getv %tmp.40 :height;
+            %tmp.42 = sub %tmp.39 %tmp.41;
+            %tmp.43 = 0.5;
+            %tmp.44 = mul %tmp.42 %tmp.43;
+            invoke %tmp.31 %tmp.32(%tmp.38, %tmp.44);
+[ "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" 18 12 ]
+            %tmp.45 = newa 1 Array<WatchUi.Drawable>;
+            %tmp.47 = lgetv %rez_cmp_local_bitmap_IpLogo.1;
+            %tmp.48 = dup %tmp.45;
+            %tmp.49 = aputv %tmp.48 0 %tmp.47;
+            ret %tmp.49;
+_Users_kevinpotschien_Coding_irregularPractice_bin_gen_006_B2886_00_source_Rez_mcgen_14_74_19_8_stop:
+        }
+    }
+    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 22; ]
+    module Strings {
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 22; ]
+        <init> {
+        }
+        [ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 23; @position = 27; initialized = true; ]
+        var AppName as ResourceId;
+    }
+}
+[ @file = "/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen"; @line = 1; ]
+<init> {
+}

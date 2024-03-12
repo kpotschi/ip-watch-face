@@ -1,0 +1,5 @@
+<resources>
+    <layout id="MainLayout">
+        <bitmap id="IpLogo" filename="../drawables/ip-logo.png" x="center" y="center" scaleX="50%" scaleY="50%" scaleRelativeTo="image"/>
+    </layout>
+</resources>

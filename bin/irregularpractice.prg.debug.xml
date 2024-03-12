@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="/Users/kevinpotschien/Coding/irregularPractice/manifest.xml"/>
+<pcToLineNum>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="1" lineNum="6" parent="globals/irregular_practiceView" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="4" lineNum="5" parent="globals/irregular_practiceApp" pc="268435529" symbol="&lt;init&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="120" parent="globals/irregular_practiceView" pc="268435548" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="121" parent="globals/irregular_practiceView" pc="268435552" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="122" parent="globals/irregular_practiceView" pc="268435569" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="123" parent="globals/irregular_practiceView" pc="268435593" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="124" parent="globals/irregular_practiceView" pc="268435617" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="125" parent="globals/irregular_practiceView" pc="268435636" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="126" parent="globals/irregular_practiceView" pc="268435655" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="127" parent="globals/irregular_practiceView" pc="268435662" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="130" parent="globals/irregular_practiceView" pc="268435669" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="131" parent="globals/irregular_practiceView" pc="268435691" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="5" lineNum="139" parent="globals/irregular_practiceView" pc="268435725" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="6" lineNum="18" parent="globals/irregular_practiceView" pc="268435760" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="6" lineNum="19" parent="globals/irregular_practiceView" pc="268435762" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="6" lineNum="20" parent="globals/irregular_practiceView" pc="268435781" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="6" lineNum="21" parent="globals/irregular_practiceView" pc="268435800" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="148" parent="globals/irregular_practiceView" pc="268435842" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="149" parent="globals/irregular_practiceView" pc="268435846" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="151" parent="globals/irregular_practiceView" pc="268435869" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="152" parent="globals/irregular_practiceView" pc="268435876" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="153" parent="globals/irregular_practiceView" pc="268435883" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="154" parent="globals/irregular_practiceView" pc="268435908" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="156" parent="globals/irregular_practiceView" pc="268435924" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="157" parent="globals/irregular_practiceView" pc="268435941" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="162" parent="globals/irregular_practiceView" pc="268435982" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="164" parent="globals/irregular_practiceView" pc="268436007" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="7" lineNum="166" parent="globals/irregular_practiceView" pc="268436060" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="8" lineNum="12" parent="globals/irregular_practiceView" pc="268436102" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="8" lineNum="14" parent="globals/irregular_practiceView" pc="268436104" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="35" parent="globals/irregular_practiceView" pc="268436123" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="36" parent="globals/irregular_practiceView" pc="268436127" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="37" parent="globals/irregular_practiceView" pc="268436140" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="38" parent="globals/irregular_practiceView" pc="268436153" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="40" parent="globals/irregular_practiceView" pc="268436160" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="41" parent="globals/irregular_practiceView" pc="268436182" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="43" parent="globals/irregular_practiceView" pc="268436196" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="52" parent="globals/irregular_practiceView" pc="268436213" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="53" parent="globals/irregular_practiceView" pc="268436223" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="54" parent="globals/irregular_practiceView" pc="268436230" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="56" parent="globals/irregular_practiceView" pc="268436237" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="58" parent="globals/irregular_practiceView" pc="268436259" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="61" parent="globals/irregular_practiceView" pc="268436301" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="65" parent="globals/irregular_practiceView" pc="268436343" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="68" parent="globals/irregular_practiceView" pc="268436385" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="72" parent="globals/irregular_practiceView" pc="268436427" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="75" parent="globals/irregular_practiceView" pc="268436469" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="78" parent="globals/irregular_practiceView" pc="268436511" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="85" parent="globals/irregular_practiceView" pc="268436631" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="86" parent="globals/irregular_practiceView" pc="268436647" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="87" parent="globals/irregular_practiceView" pc="268436654" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="89" parent="globals/irregular_practiceView" pc="268436661" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="90" parent="globals/irregular_practiceView" pc="268436671" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="91" parent="globals/irregular_practiceView" pc="268436681" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="93" parent="globals/irregular_practiceView" pc="268436700" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="96" parent="globals/irregular_practiceView" pc="268436742" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="100" parent="globals/irregular_practiceView" pc="268436784" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="103" parent="globals/irregular_practiceView" pc="268436826" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="107" parent="globals/irregular_practiceView" pc="268436868" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="110" parent="globals/irregular_practiceView" pc="268436910" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="9" lineNum="113" parent="globals/irregular_practiceView" pc="268436952" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="10" lineNum="24" parent="globals/irregular_practiceView" pc="268437073" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="10" lineNum="25" parent="globals/irregular_practiceView" pc="268437075" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="10" lineNum="31" parent="globals/irregular_practiceView" pc="268437095" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" id="10" lineNum="32" parent="globals/irregular_practiceView" pc="268437109" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="11" lineNum="12" parent="globals/irregular_practiceApp" pc="268437124" symbol="onStart"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="12" lineNum="20" parent="globals/irregular_practiceApp" pc="268437127" symbol="getInitialView"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="12" lineNum="21" parent="globals/irregular_practiceApp" pc="268437129" symbol="getInitialView"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="13" lineNum="7" parent="globals/irregular_practiceApp" pc="268437170" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="13" lineNum="8" parent="globals/irregular_practiceApp" pc="268437172" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceApp.mc" id="14" lineNum="16" parent="globals/irregular_practiceApp" pc="268437191" symbol="onStop"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" id="15" lineNum="14" parent="globals/Rez/Layouts" pc="268437194" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" id="15" lineNum="15" parent="globals/Rez/Layouts" pc="268437206" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" id="15" lineNum="16" parent="globals/Rez/Layouts" pc="268437311" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/irregularPractice/bin/gen/006-B2886-00/source/Rez.mcgen" id="15" lineNum="18" parent="globals/Rez/Layouts" pc="268437363" symbol="MainLayout"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="14" symbol="IpLogo"/>
+<entry id="16" method="true" symbol="MainLayout"/>
+<entry id="7" object="true" symbol="irregular_practiceView"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="17" symbol="AppName"/>
+<entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8389345" symbol="rezId"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="11" symbol="&lt;globals/irregular_practiceView/&lt;&gt;screenHeight&gt;"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="10" method="true" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8" method="true" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="12" symbol="&lt;globals/irregular_practiceView/&lt;&gt;screenWidth&gt;"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="9" method="true" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="13" module="true" symbol="Layouts"/>
+<entry id="6" object="true" symbol="irregular_practiceApp"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435759" name="dc" stackId="1" startPc="268435548"/>
+<entry endPc="268435758" name="clockTime" stackId="2" startPc="268435552"/>
+<entry endPc="268435758" name="hours" stackId="3" startPc="268435552"/>
+<entry endPc="268435758" name="minutes" stackId="4" startPc="268435552"/>
+<entry endPc="268435758" name="x" stackId="5" startPc="268435552"/>
+<entry endPc="268435758" name="y" stackId="6" startPc="268435552"/>
+<entry endPc="268435758" name="yOffset" stackId="7" startPc="268435552"/>
+<entry endPc="268435758" name="xSpread" stackId="8" startPc="268435552"/>
+<entry arg="true" endPc="268435841" name="dc" stackId="1" startPc="268435760"/>
+<entry arg="true" endPc="268436101" name="dc" stackId="1" startPc="268435842"/>
+<entry endPc="268436100" name="battery" stackId="2" startPc="268435846"/>
+<entry endPc="268436100" name="height" stackId="3" startPc="268435846"/>
+<entry endPc="268436100" name="width" stackId="4" startPc="268435846"/>
+<entry endPc="268436100" name="x" stackId="5" startPc="268435846"/>
+<entry endPc="268436100" name="y" stackId="6" startPc="268435846"/>
+<entry arg="true" endPc="268437072" name="dc" stackId="1" startPc="268436123"/>
+<entry endPc="268437071" name="displayHeight" stackId="2" startPc="268436127"/>
+<entry endPc="268437071" name="displayWidth" stackId="3" startPc="268436127"/>
+<entry endPc="268437071" name="strokeWidth" stackId="4" startPc="268436127"/>
+<entry endPc="268437071" name="clockTime" stackId="5" startPc="268436127"/>
+<entry endPc="268437071" name="min" stackId="6" startPc="268436127"/>
+<entry endPc="268437071" name="minHandInset" stackId="7" startPc="268436127"/>
+<entry endPc="268437071" name="minHandWidth" stackId="8" startPc="268436127"/>
+<entry endPc="268437071" name="minRadians" stackId="9" startPc="268436127"/>
+<entry endPc="268437071" name="minX1" stackId="10" startPc="268436127"/>
+<entry endPc="268437071" name="minY1" stackId="11" startPc="268436127"/>
+<entry endPc="268437071" name="minX2" stackId="12" startPc="268436127"/>
+<entry endPc="268437071" name="minY2" stackId="13" startPc="268436127"/>
+<entry endPc="268437071" name="minX3" stackId="14" startPc="268436127"/>
+<entry endPc="268437071" name="minY3" stackId="15" startPc="268436127"/>
+<entry endPc="268437071" name="hour" stackId="16" startPc="268436127"/>
+<entry endPc="268437071" name="hourHandInset" stackId="17" startPc="268436127"/>
+<entry endPc="268437071" name="hoursHandWidth" stackId="18" startPc="268436127"/>
+<entry endPc="268437071" name="hourDeg" stackId="19" startPc="268436127"/>
+<entry endPc="268437071" name="minDeg" stackId="20" startPc="268436127"/>
+<entry endPc="268437071" name="hourRadians" stackId="21" startPc="268436127"/>
+<entry endPc="268437071" name="hourX1" stackId="22" startPc="268436127"/>
+<entry endPc="268437071" name="hourY1" stackId="23" startPc="268436127"/>
+<entry endPc="268437071" name="hourX2" stackId="24" startPc="268436127"/>
+<entry endPc="268437071" name="hourY2" stackId="25" startPc="268436127"/>
+<entry endPc="268437071" name="hourX3" stackId="26" startPc="268436127"/>
+<entry endPc="268437071" name="hourY3" stackId="27" startPc="268436127"/>
+<entry arg="true" endPc="268437123" name="dc" stackId="1" startPc="268437073"/>
+<entry arg="true" endPc="268437379" name="dc" stackId="1" startPc="268437194"/>
+<entry endPc="268437379" name="rez_cmp_local_bitmap_IpLogo" stackId="2" startPc="268437206"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IpLogo"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/irregular_practiceView" offset="134" parentId="globals" symbolId="irregular_practiceView" type="class"/>
+<dataEntry label="globals/Rez" offset="237" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/irregular_practiceApp" offset="292" parentId="globals" symbolId="irregular_practiceApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="363" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="410" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="449" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="irregular_practiceView" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="irregular_practiceApp" startPc="268435529">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268435759" name="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;" parent="irregular_practiceView" startPc="268435548">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435841" name="onLayout" parent="irregular_practiceView" startPc="268435760">
+<param id="dc"/>
+<documentation><![CDATA[<div class="description"> Load the resources<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268436101" name="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;" parent="irregular_practiceView" startPc="268435842">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436122" name="initialize" parent="irregular_practiceView" startPc="268436102">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268437072" name="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;" parent="irregular_practiceView" startPc="268436123">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437123" name="onUpdate" parent="irregular_practiceView" startPc="268437073">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437126" name="onStart" parent="irregular_practiceApp" startPc="268437124">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437169" name="getInitialView" parent="irregular_practiceApp" startPc="268437127">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437190" name="initialize" parent="irregular_practiceApp" startPc="268437170">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437193" name="onStop" parent="irregular_practiceApp" startPc="268437191">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437379" name="MainLayout" parent="Layouts" startPc="268437194">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
