@@ -4,17 +4,13 @@ import Toybox.System;
 import Toybox.WatchUi;
 
 class irregular_practiceView extends WatchUi.WatchFace {
-	// Define a private variable for the instance
-	// private var _logo as Drawable;
 	private var screenWidth;
 	private var screenHeight;
 
 	function initialize() {
-		// Call the parent constructor
 		WatchFace.initialize();
 	}
-	//! Load the resources
-	//! @param dc Device context
+
 	public function onLayout(dc as Dc) as Void {
 		screenWidth = dc.getWidth();
 		screenHeight = dc.getHeight();
@@ -27,7 +23,7 @@ class irregular_practiceView extends WatchUi.WatchFace {
 
 		// dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
 		//
-		// drawHoursMinutes(dc);
+		drawHoursMinutes(dc);
 		drawClock(dc);
 		drawBattery(dc);
 	}
@@ -42,11 +38,11 @@ class irregular_practiceView extends WatchUi.WatchFace {
 
 		var clockTime = System.getClockTime();
 
-		// dc.drawCircle(
-		// 	displayWidth / 2,
-		// 	displayHeight / 2,
-		// 	displayWidth / 2 - strokeWidth
-		// );
+		dc.drawCircle(
+			displayWidth / 2,
+			displayHeight / 2,
+			displayWidth / 2 - strokeWidth / 2
+		);
 
 		// mins
 		var min = clockTime.min;
@@ -158,11 +154,8 @@ class irregular_practiceView extends WatchUi.WatchFace {
 			battery <= 20 ? Graphics.COLOR_RED : Graphics.COLOR_WHITE,
 			Graphics.COLOR_TRANSPARENT
 		);
-		// Draw the outer rect
 		dc.drawRoundedRectangle(x, y, width, height, 2);
-		// Draw the small + on the right
 		dc.drawLine(x + width + 1, y + 3, x + width + 1, y + height - 3);
-		// Fill the rect based on current battery
 		dc.fillRectangle(x + 1, y, ((width - 2) * battery) / 100, height);
 	}
 }

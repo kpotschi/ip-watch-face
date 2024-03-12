@@ -1,52 +1,50 @@
-[ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 1; ]
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 1; ]
 import Toybox.Graphics;
-[ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 2; ]
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 2; ]
 import Toybox.Lang;
-[ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 3; ]
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 3; ]
 import Toybox.System;
-[ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 4; ]
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 4; ]
 import Toybox.WatchUi;
-[ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 6; ]
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 6; ]
 class irregular_practiceView extends WatchUi.WatchFace{
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 6; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 6; ]
     <init> {
     }
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 6; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 9; @position = 13; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 7; @position = 13; ]
     private
     var screenWidth;
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 10; @position = 13; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 8; @position = 13; ]
     private
     var screenHeight;
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 12; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 10; ]
     function initialize() as Void {
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_12_23_15_1_start:
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 14 2 ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_10_23_12_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 11 2 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_12_23_15_1_stop:
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_10_23_12_1_stop:
     }
-    //! Load the resources
-    //! @param dc Device context
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 18; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 14; ]
     public
     function onLayout(dc as Dc) as Void {
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_18_44_22_1_start:
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 19 2 ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_14_44_18_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 15 2 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getWidth;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         putv self :screenWidth %tmp.3;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 20 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 16 2 ]
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :getHeight;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         putv self :screenHeight %tmp.6;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 21 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 17 2 ]
         %tmp.7 = self;
         %tmp.8 = getv function %tmp.7 :setLayout;
         %tmp.10 = getv ? :Rez;
@@ -55,53 +53,58 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.14 = lgetv %dc;
         %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
         invoke %tmp.7 %tmp.8(%tmp.15);
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_18_44_22_1_stop:
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_14_44_18_1_stop:
     }
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 24; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 20; ]
     public
     function onUpdate(dc as Dc) as Void {
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_24_44_33_1_start:
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 25 2 ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_20_44_29_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 21 2 ]
         %tmp.2 = getv ? :WatchFace;
         %tmp.3 = getv function %tmp.2 :onUpdate;
         %tmp.5 = lgetv %dc;
         invoke %tmp.2 %tmp.3(%tmp.5);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 31 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 26 2 ]
         %tmp.6 = self;
-        %tmp.7 = getv function %tmp.6 :drawClock;
+        %tmp.7 = getv function %tmp.6 :drawHoursMinutes;
         %tmp.9 = lgetv %dc;
         invoke %tmp.6 %tmp.7(%tmp.9);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 32 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 27 2 ]
         %tmp.10 = self;
-        %tmp.11 = getv function %tmp.10 :drawBattery;
+        %tmp.11 = getv function %tmp.10 :drawClock;
         %tmp.13 = lgetv %dc;
         invoke %tmp.10 %tmp.11(%tmp.13);
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_24_44_33_1_stop:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 28 2 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :drawBattery;
+        %tmp.17 = lgetv %dc;
+        invoke %tmp.14 %tmp.15(%tmp.17);
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_20_44_29_1_stop:
     }
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 35; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 31; ]
     private
     function drawClock(dc) {
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start:
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 36 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 32 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %displayHeight.1 = local;
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :getHeight;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %displayHeight.1 %tmp.3;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 37 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 33 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %displayWidth.2 = local;
         %tmp.4 = lgetv %dc;
         %tmp.5 = getv function %tmp.4 :getWidth;
         %tmp.6 = invoke %tmp.4 %tmp.5();
         lputv %displayWidth.2 %tmp.6;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 38 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 34 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %strokeWidth.3 = local;
         %tmp.7 = 3;
         lputv %strokeWidth.3 %tmp.7;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 40 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 36 2 ]
         %tmp.8 = lgetv %dc;
         %tmp.9 = getv function %tmp.8 :setColor;
         %tmp.10 = getm $.Toybox.Graphics;
@@ -109,77 +112,76 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.12 = getm $.Toybox.Graphics;
         %tmp.13 = getv %tmp.12 :COLOR_RED;
         invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 41 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 37 2 ]
         %tmp.14 = lgetv %dc;
         %tmp.15 = getv function %tmp.14 :setPenWidth;
         %tmp.17 = lgetv %strokeWidth.3;
         invoke %tmp.14 %tmp.15(%tmp.17);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 43 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 39 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %clockTime.4 = local;
         %tmp.18 = getm $.Toybox.System;
         %tmp.19 = getv function %tmp.18 :getClockTime;
         %tmp.20 = invoke %tmp.18 %tmp.19();
         lputv %clockTime.4 %tmp.20;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 52 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 41 2 ]
+        %tmp.21 = lgetv %dc;
+        %tmp.22 = getv function %tmp.21 :drawCircle;
+        %tmp.24 = lgetv %displayWidth.2;
+        %tmp.25 = 2;
+        %tmp.26 = div %tmp.24 %tmp.25;
+        %tmp.28 = lgetv %displayHeight.1;
+        %tmp.29 = 2;
+        %tmp.30 = div %tmp.28 %tmp.29;
+        %tmp.32 = lgetv %displayWidth.2;
+        %tmp.33 = 2;
+        %tmp.34 = div %tmp.32 %tmp.33;
+        %tmp.36 = lgetv %strokeWidth.3;
+        %tmp.37 = 2;
+        %tmp.38 = div %tmp.36 %tmp.37;
+        %tmp.39 = sub %tmp.34 %tmp.38;
+        invoke %tmp.21 %tmp.22(%tmp.26, %tmp.30, %tmp.39);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 48 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %min.5 = local;
-        %tmp.21 = lgetv %clockTime.4;
-        %tmp.22 = getv %tmp.21 :min;
-        lputv %min.5 %tmp.22;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 53 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.40 = lgetv %clockTime.4;
+        %tmp.41 = getv %tmp.40 :min;
+        lputv %min.5 %tmp.41;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 49 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %minHandInset.6 = local;
-        %tmp.23 = 20;
-        lputv %minHandInset.6 %tmp.23;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 54 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.42 = 20;
+        lputv %minHandInset.6 %tmp.42;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 50 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %minHandWidth.7 = local;
-        %tmp.24 = 0.02;
-        lputv %minHandWidth.7 %tmp.24;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 56 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.43 = 0.02;
+        lputv %minHandWidth.7 %tmp.43;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 52 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %minRadians.8 = local;
-        %tmp.25 = 6;
-        %tmp.27 = lgetv %min.5;
-        %tmp.28 = mul %tmp.25 %tmp.27;
-        %tmp.30 = getv ? :Math;
-        %tmp.31 = getv %tmp.30 :PI;
-        %tmp.32 = 180;
-        %tmp.33 = div %tmp.31 %tmp.32;
-        %tmp.34 = mul %tmp.28 %tmp.33;
-        %tmp.36 = getv ? :Math;
-        %tmp.37 = getv %tmp.36 :PI;
-        %tmp.38 = 2;
-        %tmp.39 = div %tmp.37 %tmp.38;
-        %tmp.40 = sub %tmp.34 %tmp.39;
-        lputv %minRadians.8 %tmp.40;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 58 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %minX1.9 = local;
-        %tmp.42 = getv ? :Math;
-        %tmp.43 = getv function %tmp.42 :cos;
-        %tmp.45 = lgetv %minRadians.8;
-        %tmp.46 = invoke %tmp.42 %tmp.43(%tmp.45);
-        %tmp.48 = lgetv %displayWidth.2;
-        %tmp.49 = 2;
-        %tmp.50 = div %tmp.48 %tmp.49;
-        %tmp.52 = lgetv %minHandInset.6;
-        %tmp.53 = sub %tmp.50 %tmp.52;
-        %tmp.54 = mul %tmp.46 %tmp.53;
-        %tmp.56 = lgetv %displayWidth.2;
+        %tmp.44 = 6;
+        %tmp.46 = lgetv %min.5;
+        %tmp.47 = mul %tmp.44 %tmp.46;
+        %tmp.49 = getv ? :Math;
+        %tmp.50 = getv %tmp.49 :PI;
+        %tmp.51 = 180;
+        %tmp.52 = div %tmp.50 %tmp.51;
+        %tmp.53 = mul %tmp.47 %tmp.52;
+        %tmp.55 = getv ? :Math;
+        %tmp.56 = getv %tmp.55 :PI;
         %tmp.57 = 2;
         %tmp.58 = div %tmp.56 %tmp.57;
-        %tmp.59 = add %tmp.54 %tmp.58;
-        lputv %minX1.9 %tmp.59;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 61 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %minY1.10 = local;
+        %tmp.59 = sub %tmp.53 %tmp.58;
+        lputv %minRadians.8 %tmp.59;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 54 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %minX1.9 = local;
         %tmp.61 = getv ? :Math;
-        %tmp.62 = getv function %tmp.61 :sin;
+        %tmp.62 = getv function %tmp.61 :cos;
         %tmp.64 = lgetv %minRadians.8;
         %tmp.65 = invoke %tmp.61 %tmp.62(%tmp.64);
-        %tmp.67 = lgetv %displayHeight.1;
+        %tmp.67 = lgetv %displayWidth.2;
         %tmp.68 = 2;
         %tmp.69 = div %tmp.67 %tmp.68;
         %tmp.71 = lgetv %minHandInset.6;
@@ -189,35 +191,35 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.76 = 2;
         %tmp.77 = div %tmp.75 %tmp.76;
         %tmp.78 = add %tmp.73 %tmp.77;
-        lputv %minY1.10 %tmp.78;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 65 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %minX2.11 = local;
+        lputv %minX1.9 %tmp.78;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 57 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %minY1.10 = local;
         %tmp.80 = getv ? :Math;
-        %tmp.81 = getv function %tmp.80 :cos;
+        %tmp.81 = getv function %tmp.80 :sin;
         %tmp.83 = lgetv %minRadians.8;
-        %tmp.85 = lgetv %minHandWidth.7;
-        %tmp.86 = sub %tmp.83 %tmp.85;
-        %tmp.87 = invoke %tmp.80 %tmp.81(%tmp.86);
-        %tmp.89 = lgetv %displayWidth.2;
-        %tmp.90 = 2;
-        %tmp.91 = div %tmp.89 %tmp.90;
-        %tmp.92 = mul %tmp.87 %tmp.91;
+        %tmp.84 = invoke %tmp.80 %tmp.81(%tmp.83);
+        %tmp.86 = lgetv %displayHeight.1;
+        %tmp.87 = 2;
+        %tmp.88 = div %tmp.86 %tmp.87;
+        %tmp.90 = lgetv %minHandInset.6;
+        %tmp.91 = sub %tmp.88 %tmp.90;
+        %tmp.92 = mul %tmp.84 %tmp.91;
         %tmp.94 = lgetv %displayWidth.2;
         %tmp.95 = 2;
         %tmp.96 = div %tmp.94 %tmp.95;
         %tmp.97 = add %tmp.92 %tmp.96;
-        lputv %minX2.11 %tmp.97;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 68 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %minY2.12 = local;
+        lputv %minY1.10 %tmp.97;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 61 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %minX2.11 = local;
         %tmp.99 = getv ? :Math;
-        %tmp.100 = getv function %tmp.99 :sin;
+        %tmp.100 = getv function %tmp.99 :cos;
         %tmp.102 = lgetv %minRadians.8;
         %tmp.104 = lgetv %minHandWidth.7;
         %tmp.105 = sub %tmp.102 %tmp.104;
         %tmp.106 = invoke %tmp.99 %tmp.100(%tmp.105);
-        %tmp.108 = lgetv %displayHeight.1;
+        %tmp.108 = lgetv %displayWidth.2;
         %tmp.109 = 2;
         %tmp.110 = div %tmp.108 %tmp.109;
         %tmp.111 = mul %tmp.106 %tmp.110;
@@ -225,17 +227,17 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.114 = 2;
         %tmp.115 = div %tmp.113 %tmp.114;
         %tmp.116 = add %tmp.111 %tmp.115;
-        lputv %minY2.12 %tmp.116;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 72 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %minX3.13 = local;
+        lputv %minX2.11 %tmp.116;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 64 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %minY2.12 = local;
         %tmp.118 = getv ? :Math;
-        %tmp.119 = getv function %tmp.118 :cos;
+        %tmp.119 = getv function %tmp.118 :sin;
         %tmp.121 = lgetv %minRadians.8;
         %tmp.123 = lgetv %minHandWidth.7;
-        %tmp.124 = add %tmp.121 %tmp.123;
+        %tmp.124 = sub %tmp.121 %tmp.123;
         %tmp.125 = invoke %tmp.118 %tmp.119(%tmp.124);
-        %tmp.127 = lgetv %displayWidth.2;
+        %tmp.127 = lgetv %displayHeight.1;
         %tmp.128 = 2;
         %tmp.129 = div %tmp.127 %tmp.128;
         %tmp.130 = mul %tmp.125 %tmp.129;
@@ -243,17 +245,17 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.133 = 2;
         %tmp.134 = div %tmp.132 %tmp.133;
         %tmp.135 = add %tmp.130 %tmp.134;
-        lputv %minX3.13 %tmp.135;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 75 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %minY3.14 = local;
+        lputv %minY2.12 %tmp.135;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 68 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %minX3.13 = local;
         %tmp.137 = getv ? :Math;
-        %tmp.138 = getv function %tmp.137 :sin;
+        %tmp.138 = getv function %tmp.137 :cos;
         %tmp.140 = lgetv %minRadians.8;
         %tmp.142 = lgetv %minHandWidth.7;
         %tmp.143 = add %tmp.140 %tmp.142;
         %tmp.144 = invoke %tmp.137 %tmp.138(%tmp.143);
-        %tmp.146 = lgetv %displayHeight.1;
+        %tmp.146 = lgetv %displayWidth.2;
         %tmp.147 = 2;
         %tmp.148 = div %tmp.146 %tmp.147;
         %tmp.149 = mul %tmp.144 %tmp.148;
@@ -261,114 +263,114 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.152 = 2;
         %tmp.153 = div %tmp.151 %tmp.152;
         %tmp.154 = add %tmp.149 %tmp.153;
-        lputv %minY3.14 %tmp.154;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 78 2 ]
-        %tmp.155 = lgetv %dc;
-        %tmp.156 = getv function %tmp.155 :fillPolygon;
-        %tmp.157 = newa 3;
-        %tmp.158 = newa 2;
-        %tmp.160 = lgetv %minX1.9;
-        %tmp.161 = dup %tmp.158;
-        %tmp.162 = aputv %tmp.161 0 %tmp.160;
-        %tmp.164 = lgetv %minY1.10;
-        %tmp.165 = dup %tmp.162;
-        %tmp.166 = aputv %tmp.165 1 %tmp.164;
-        %tmp.167 = dup %tmp.157;
-        %tmp.168 = aputv %tmp.167 0 %tmp.166;
-        %tmp.169 = newa 2;
-        %tmp.171 = lgetv %minX2.11;
-        %tmp.172 = dup %tmp.169;
-        %tmp.173 = aputv %tmp.172 0 %tmp.171;
-        %tmp.175 = lgetv %minY2.12;
-        %tmp.176 = dup %tmp.173;
-        %tmp.177 = aputv %tmp.176 1 %tmp.175;
-        %tmp.178 = dup %tmp.168;
-        %tmp.179 = aputv %tmp.178 1 %tmp.177;
-        %tmp.180 = newa 2;
-        %tmp.182 = lgetv %minX3.13;
-        %tmp.183 = dup %tmp.180;
-        %tmp.184 = aputv %tmp.183 0 %tmp.182;
-        %tmp.186 = lgetv %minY3.14;
-        %tmp.187 = dup %tmp.184;
-        %tmp.188 = aputv %tmp.187 1 %tmp.186;
-        %tmp.189 = dup %tmp.179;
-        %tmp.190 = aputv %tmp.189 2 %tmp.188;
-        invoke %tmp.155 %tmp.156(%tmp.190);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 85 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        lputv %minX3.13 %tmp.154;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 71 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %minY3.14 = local;
+        %tmp.156 = getv ? :Math;
+        %tmp.157 = getv function %tmp.156 :sin;
+        %tmp.159 = lgetv %minRadians.8;
+        %tmp.161 = lgetv %minHandWidth.7;
+        %tmp.162 = add %tmp.159 %tmp.161;
+        %tmp.163 = invoke %tmp.156 %tmp.157(%tmp.162);
+        %tmp.165 = lgetv %displayHeight.1;
+        %tmp.166 = 2;
+        %tmp.167 = div %tmp.165 %tmp.166;
+        %tmp.168 = mul %tmp.163 %tmp.167;
+        %tmp.170 = lgetv %displayWidth.2;
+        %tmp.171 = 2;
+        %tmp.172 = div %tmp.170 %tmp.171;
+        %tmp.173 = add %tmp.168 %tmp.172;
+        lputv %minY3.14 %tmp.173;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 74 2 ]
+        %tmp.174 = lgetv %dc;
+        %tmp.175 = getv function %tmp.174 :fillPolygon;
+        %tmp.176 = newa 3;
+        %tmp.177 = newa 2;
+        %tmp.179 = lgetv %minX1.9;
+        %tmp.180 = dup %tmp.177;
+        %tmp.181 = aputv %tmp.180 0 %tmp.179;
+        %tmp.183 = lgetv %minY1.10;
+        %tmp.184 = dup %tmp.181;
+        %tmp.185 = aputv %tmp.184 1 %tmp.183;
+        %tmp.186 = dup %tmp.176;
+        %tmp.187 = aputv %tmp.186 0 %tmp.185;
+        %tmp.188 = newa 2;
+        %tmp.190 = lgetv %minX2.11;
+        %tmp.191 = dup %tmp.188;
+        %tmp.192 = aputv %tmp.191 0 %tmp.190;
+        %tmp.194 = lgetv %minY2.12;
+        %tmp.195 = dup %tmp.192;
+        %tmp.196 = aputv %tmp.195 1 %tmp.194;
+        %tmp.197 = dup %tmp.187;
+        %tmp.198 = aputv %tmp.197 1 %tmp.196;
+        %tmp.199 = newa 2;
+        %tmp.201 = lgetv %minX3.13;
+        %tmp.202 = dup %tmp.199;
+        %tmp.203 = aputv %tmp.202 0 %tmp.201;
+        %tmp.205 = lgetv %minY3.14;
+        %tmp.206 = dup %tmp.203;
+        %tmp.207 = aputv %tmp.206 1 %tmp.205;
+        %tmp.208 = dup %tmp.198;
+        %tmp.209 = aputv %tmp.208 2 %tmp.207;
+        invoke %tmp.174 %tmp.175(%tmp.209);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 81 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %hour.15 = local;
-        %tmp.191 = lgetv %clockTime.4;
-        %tmp.192 = getv %tmp.191 :hour;
-        %tmp.193 = 12;
-        %tmp.194 = mod %tmp.192 %tmp.193;
-        lputv %hour.15 %tmp.194;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 86 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.210 = lgetv %clockTime.4;
+        %tmp.211 = getv %tmp.210 :hour;
+        %tmp.212 = 12;
+        %tmp.213 = mod %tmp.211 %tmp.212;
+        lputv %hour.15 %tmp.213;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 82 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %hourHandInset.16 = local;
-        %tmp.195 = 10;
-        lputv %hourHandInset.16 %tmp.195;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 87 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.214 = 10;
+        lputv %hourHandInset.16 %tmp.214;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 83 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %hoursHandWidth.17 = local;
-        %tmp.196 = 0.04;
-        lputv %hoursHandWidth.17 %tmp.196;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 89 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.215 = 0.04;
+        lputv %hoursHandWidth.17 %tmp.215;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 85 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %hourDeg.18 = local;
-        %tmp.197 = 30;
-        %tmp.199 = lgetv %hour.15;
-        %tmp.200 = mul %tmp.197 %tmp.199;
-        lputv %hourDeg.18 %tmp.200;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 90 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.216 = 30;
+        %tmp.218 = lgetv %hour.15;
+        %tmp.219 = mul %tmp.216 %tmp.218;
+        lputv %hourDeg.18 %tmp.219;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 86 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %minDeg.19 = local;
-        %tmp.202 = lgetv %min.5;
-        %tmp.203 = 0.5;
-        %tmp.204 = mul %tmp.202 %tmp.203;
-        lputv %minDeg.19 %tmp.204;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 91 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
+        %tmp.221 = lgetv %min.5;
+        %tmp.222 = 0.5;
+        %tmp.223 = mul %tmp.221 %tmp.222;
+        lputv %minDeg.19 %tmp.223;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 87 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
         %hourRadians.20 = local;
-        %tmp.206 = lgetv %hourDeg.18;
-        %tmp.208 = lgetv %minDeg.19;
-        %tmp.209 = add %tmp.206 %tmp.208;
-        %tmp.211 = getv ? :Math;
-        %tmp.212 = getv %tmp.211 :PI;
-        %tmp.213 = 180;
-        %tmp.214 = div %tmp.212 %tmp.213;
-        %tmp.215 = mul %tmp.209 %tmp.214;
-        %tmp.217 = getv ? :Math;
-        %tmp.218 = getv %tmp.217 :PI;
-        %tmp.219 = 2;
-        %tmp.220 = div %tmp.218 %tmp.219;
-        %tmp.221 = sub %tmp.215 %tmp.220;
-        lputv %hourRadians.20 %tmp.221;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 93 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %hourX1.21 = local;
-        %tmp.223 = getv ? :Math;
-        %tmp.224 = getv function %tmp.223 :cos;
-        %tmp.226 = lgetv %hourRadians.20;
-        %tmp.227 = invoke %tmp.223 %tmp.224(%tmp.226);
-        %tmp.229 = lgetv %displayWidth.2;
-        %tmp.230 = 2;
-        %tmp.231 = div %tmp.229 %tmp.230;
-        %tmp.233 = lgetv %hourHandInset.16;
-        %tmp.234 = sub %tmp.231 %tmp.233;
-        %tmp.235 = mul %tmp.227 %tmp.234;
-        %tmp.237 = lgetv %displayWidth.2;
+        %tmp.225 = lgetv %hourDeg.18;
+        %tmp.227 = lgetv %minDeg.19;
+        %tmp.228 = add %tmp.225 %tmp.227;
+        %tmp.230 = getv ? :Math;
+        %tmp.231 = getv %tmp.230 :PI;
+        %tmp.232 = 180;
+        %tmp.233 = div %tmp.231 %tmp.232;
+        %tmp.234 = mul %tmp.228 %tmp.233;
+        %tmp.236 = getv ? :Math;
+        %tmp.237 = getv %tmp.236 :PI;
         %tmp.238 = 2;
         %tmp.239 = div %tmp.237 %tmp.238;
-        %tmp.240 = add %tmp.235 %tmp.239;
-        lputv %hourX1.21 %tmp.240;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 96 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %hourY1.22 = local;
+        %tmp.240 = sub %tmp.234 %tmp.239;
+        lputv %hourRadians.20 %tmp.240;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 89 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %hourX1.21 = local;
         %tmp.242 = getv ? :Math;
-        %tmp.243 = getv function %tmp.242 :sin;
+        %tmp.243 = getv function %tmp.242 :cos;
         %tmp.245 = lgetv %hourRadians.20;
         %tmp.246 = invoke %tmp.242 %tmp.243(%tmp.245);
-        %tmp.248 = lgetv %displayHeight.1;
+        %tmp.248 = lgetv %displayWidth.2;
         %tmp.249 = 2;
         %tmp.250 = div %tmp.248 %tmp.249;
         %tmp.252 = lgetv %hourHandInset.16;
@@ -378,35 +380,35 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.257 = 2;
         %tmp.258 = div %tmp.256 %tmp.257;
         %tmp.259 = add %tmp.254 %tmp.258;
-        lputv %hourY1.22 %tmp.259;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 100 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %hourX2.23 = local;
+        lputv %hourX1.21 %tmp.259;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 92 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %hourY1.22 = local;
         %tmp.261 = getv ? :Math;
-        %tmp.262 = getv function %tmp.261 :cos;
+        %tmp.262 = getv function %tmp.261 :sin;
         %tmp.264 = lgetv %hourRadians.20;
-        %tmp.266 = lgetv %hoursHandWidth.17;
-        %tmp.267 = sub %tmp.264 %tmp.266;
-        %tmp.268 = invoke %tmp.261 %tmp.262(%tmp.267);
-        %tmp.270 = lgetv %displayWidth.2;
-        %tmp.271 = 2;
-        %tmp.272 = div %tmp.270 %tmp.271;
-        %tmp.273 = mul %tmp.268 %tmp.272;
+        %tmp.265 = invoke %tmp.261 %tmp.262(%tmp.264);
+        %tmp.267 = lgetv %displayHeight.1;
+        %tmp.268 = 2;
+        %tmp.269 = div %tmp.267 %tmp.268;
+        %tmp.271 = lgetv %hourHandInset.16;
+        %tmp.272 = sub %tmp.269 %tmp.271;
+        %tmp.273 = mul %tmp.265 %tmp.272;
         %tmp.275 = lgetv %displayWidth.2;
         %tmp.276 = 2;
         %tmp.277 = div %tmp.275 %tmp.276;
         %tmp.278 = add %tmp.273 %tmp.277;
-        lputv %hourX2.23 %tmp.278;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 103 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %hourY2.24 = local;
+        lputv %hourY1.22 %tmp.278;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 96 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %hourX2.23 = local;
         %tmp.280 = getv ? :Math;
-        %tmp.281 = getv function %tmp.280 :sin;
+        %tmp.281 = getv function %tmp.280 :cos;
         %tmp.283 = lgetv %hourRadians.20;
         %tmp.285 = lgetv %hoursHandWidth.17;
         %tmp.286 = sub %tmp.283 %tmp.285;
         %tmp.287 = invoke %tmp.280 %tmp.281(%tmp.286);
-        %tmp.289 = lgetv %displayHeight.1;
+        %tmp.289 = lgetv %displayWidth.2;
         %tmp.290 = 2;
         %tmp.291 = div %tmp.289 %tmp.290;
         %tmp.292 = mul %tmp.287 %tmp.291;
@@ -414,17 +416,17 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.295 = 2;
         %tmp.296 = div %tmp.294 %tmp.295;
         %tmp.297 = add %tmp.292 %tmp.296;
-        lputv %hourY2.24 %tmp.297;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 107 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %hourX3.25 = local;
+        lputv %hourX2.23 %tmp.297;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 99 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %hourY2.24 = local;
         %tmp.299 = getv ? :Math;
-        %tmp.300 = getv function %tmp.299 :cos;
+        %tmp.300 = getv function %tmp.299 :sin;
         %tmp.302 = lgetv %hourRadians.20;
         %tmp.304 = lgetv %hoursHandWidth.17;
-        %tmp.305 = add %tmp.302 %tmp.304;
+        %tmp.305 = sub %tmp.302 %tmp.304;
         %tmp.306 = invoke %tmp.299 %tmp.300(%tmp.305);
-        %tmp.308 = lgetv %displayWidth.2;
+        %tmp.308 = lgetv %displayHeight.1;
         %tmp.309 = 2;
         %tmp.310 = div %tmp.308 %tmp.309;
         %tmp.311 = mul %tmp.306 %tmp.310;
@@ -432,17 +434,17 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.314 = 2;
         %tmp.315 = div %tmp.313 %tmp.314;
         %tmp.316 = add %tmp.311 %tmp.315;
-        lputv %hourX3.25 %tmp.316;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 110 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop" ]
-        %hourY3.26 = local;
+        lputv %hourY2.24 %tmp.316;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 103 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %hourX3.25 = local;
         %tmp.318 = getv ? :Math;
-        %tmp.319 = getv function %tmp.318 :sin;
+        %tmp.319 = getv function %tmp.318 :cos;
         %tmp.321 = lgetv %hourRadians.20;
         %tmp.323 = lgetv %hoursHandWidth.17;
         %tmp.324 = add %tmp.321 %tmp.323;
         %tmp.325 = invoke %tmp.318 %tmp.319(%tmp.324);
-        %tmp.327 = lgetv %displayHeight.1;
+        %tmp.327 = lgetv %displayWidth.2;
         %tmp.328 = 2;
         %tmp.329 = div %tmp.327 %tmp.328;
         %tmp.330 = mul %tmp.325 %tmp.329;
@@ -450,54 +452,72 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.333 = 2;
         %tmp.334 = div %tmp.332 %tmp.333;
         %tmp.335 = add %tmp.330 %tmp.334;
-        lputv %hourY3.26 %tmp.335;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 113 2 ]
-        %tmp.336 = lgetv %dc;
-        %tmp.337 = getv function %tmp.336 :fillPolygon;
-        %tmp.338 = newa 3;
-        %tmp.339 = newa 2;
-        %tmp.341 = lgetv %hourX1.21;
-        %tmp.342 = dup %tmp.339;
-        %tmp.343 = aputv %tmp.342 0 %tmp.341;
-        %tmp.345 = lgetv %hourY1.22;
-        %tmp.346 = dup %tmp.343;
-        %tmp.347 = aputv %tmp.346 1 %tmp.345;
-        %tmp.348 = dup %tmp.338;
-        %tmp.349 = aputv %tmp.348 0 %tmp.347;
-        %tmp.350 = newa 2;
-        %tmp.352 = lgetv %hourX2.23;
-        %tmp.353 = dup %tmp.350;
-        %tmp.354 = aputv %tmp.353 0 %tmp.352;
-        %tmp.356 = lgetv %hourY2.24;
-        %tmp.357 = dup %tmp.354;
-        %tmp.358 = aputv %tmp.357 1 %tmp.356;
-        %tmp.359 = dup %tmp.349;
-        %tmp.360 = aputv %tmp.359 1 %tmp.358;
-        %tmp.361 = newa 2;
-        %tmp.363 = lgetv %hourX3.25;
-        %tmp.364 = dup %tmp.361;
-        %tmp.365 = aputv %tmp.364 0 %tmp.363;
-        %tmp.367 = lgetv %hourY3.26;
-        %tmp.368 = dup %tmp.365;
-        %tmp.369 = aputv %tmp.368 1 %tmp.367;
-        %tmp.370 = dup %tmp.360;
-        %tmp.371 = aputv %tmp.370 2 %tmp.369;
-        invoke %tmp.336 %tmp.337(%tmp.371);
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_35_32_118_1_stop:
+        lputv %hourX3.25 %tmp.335;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 106 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop" ]
+        %hourY3.26 = local;
+        %tmp.337 = getv ? :Math;
+        %tmp.338 = getv function %tmp.337 :sin;
+        %tmp.340 = lgetv %hourRadians.20;
+        %tmp.342 = lgetv %hoursHandWidth.17;
+        %tmp.343 = add %tmp.340 %tmp.342;
+        %tmp.344 = invoke %tmp.337 %tmp.338(%tmp.343);
+        %tmp.346 = lgetv %displayHeight.1;
+        %tmp.347 = 2;
+        %tmp.348 = div %tmp.346 %tmp.347;
+        %tmp.349 = mul %tmp.344 %tmp.348;
+        %tmp.351 = lgetv %displayWidth.2;
+        %tmp.352 = 2;
+        %tmp.353 = div %tmp.351 %tmp.352;
+        %tmp.354 = add %tmp.349 %tmp.353;
+        lputv %hourY3.26 %tmp.354;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 109 2 ]
+        %tmp.355 = lgetv %dc;
+        %tmp.356 = getv function %tmp.355 :fillPolygon;
+        %tmp.357 = newa 3;
+        %tmp.358 = newa 2;
+        %tmp.360 = lgetv %hourX1.21;
+        %tmp.361 = dup %tmp.358;
+        %tmp.362 = aputv %tmp.361 0 %tmp.360;
+        %tmp.364 = lgetv %hourY1.22;
+        %tmp.365 = dup %tmp.362;
+        %tmp.366 = aputv %tmp.365 1 %tmp.364;
+        %tmp.367 = dup %tmp.357;
+        %tmp.368 = aputv %tmp.367 0 %tmp.366;
+        %tmp.369 = newa 2;
+        %tmp.371 = lgetv %hourX2.23;
+        %tmp.372 = dup %tmp.369;
+        %tmp.373 = aputv %tmp.372 0 %tmp.371;
+        %tmp.375 = lgetv %hourY2.24;
+        %tmp.376 = dup %tmp.373;
+        %tmp.377 = aputv %tmp.376 1 %tmp.375;
+        %tmp.378 = dup %tmp.368;
+        %tmp.379 = aputv %tmp.378 1 %tmp.377;
+        %tmp.380 = newa 2;
+        %tmp.382 = lgetv %hourX3.25;
+        %tmp.383 = dup %tmp.380;
+        %tmp.384 = aputv %tmp.383 0 %tmp.382;
+        %tmp.386 = lgetv %hourY3.26;
+        %tmp.387 = dup %tmp.384;
+        %tmp.388 = aputv %tmp.387 1 %tmp.386;
+        %tmp.389 = dup %tmp.379;
+        %tmp.390 = aputv %tmp.389 2 %tmp.388;
+        invoke %tmp.355 %tmp.356(%tmp.390);
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_31_32_114_1_stop:
     }
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 120; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 116; ]
     private
     function drawHoursMinutes(dc) {
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start:
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 121 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 117 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %clockTime.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getClockTime;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         lputv %clockTime.1 %tmp.3;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 122 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 118 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %hours.2 = local;
         %tmp.4 = lgetv %clockTime.1;
         %tmp.5 = getv %tmp.4 :hour;
@@ -505,8 +525,8 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.7 = "%02d";
         %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
         lputv %hours.2 %tmp.8;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 123 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 119 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %minutes.3 = local;
         %tmp.9 = lgetv %clockTime.1;
         %tmp.10 = getv %tmp.9 :min;
@@ -514,8 +534,8 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.12 = "%02d";
         %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
         lputv %minutes.3 %tmp.13;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 124 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 120 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %x.4 = local;
         %tmp.14 = lgetv %dc;
         %tmp.15 = getv function %tmp.14 :getWidth;
@@ -523,8 +543,8 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.17 = 2;
         %tmp.18 = div %tmp.16 %tmp.17;
         lputv %x.4 %tmp.18;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 125 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 121 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %y.5 = local;
         %tmp.19 = lgetv %dc;
         %tmp.20 = getv function %tmp.19 :getHeight;
@@ -532,17 +552,17 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.22 = 0.8;
         %tmp.23 = mul %tmp.21 %tmp.22;
         lputv %y.5 %tmp.23;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 126 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 122 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %yOffset.6 = local;
         %tmp.24 = 2;
         lputv %yOffset.6 %tmp.24;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 127 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 123 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop" ]
         %xSpread.7 = local;
         %tmp.25 = 1;
         lputv %xSpread.7 %tmp.25;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 130 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 126 2 ]
         %tmp.26 = lgetv %dc;
         %tmp.27 = getv function %tmp.26 :setColor;
         %tmp.28 = getm $.Toybox.Graphics;
@@ -550,7 +570,7 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.30 = getm $.Toybox.Graphics;
         %tmp.31 = getv %tmp.30 :COLOR_TRANSPARENT;
         invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 131 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 127 2 ]
         %tmp.32 = lgetv %dc;
         %tmp.33 = getv function %tmp.32 :drawText;
         %tmp.35 = lgetv %x.4;
@@ -568,7 +588,7 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.51 = getv %tmp.50 :TEXT_JUSTIFY_VCENTER;
         %tmp.52 = bitor %tmp.49 %tmp.51;
         invoke %tmp.32 %tmp.33(%tmp.38, %tmp.43, %tmp.45, %tmp.47, %tmp.52);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 139 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 135 2 ]
         %tmp.53 = lgetv %dc;
         %tmp.54 = getv function %tmp.53 :drawText;
         %tmp.56 = lgetv %x.4;
@@ -586,32 +606,32 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_VCENTER;
         %tmp.73 = bitor %tmp.70 %tmp.72;
         invoke %tmp.53 %tmp.54(%tmp.59, %tmp.64, %tmp.66, %tmp.68, %tmp.73);
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_120_39_146_1_stop:
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_116_39_142_1_stop:
     }
-    [ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 148; ]
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 144; ]
     private
     function drawBattery(dc) {
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_start:
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 149 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_stop" ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 145 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_stop" ]
         %battery.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getSystemStats;
         %tmp.3 = invoke %tmp.1 %tmp.2();
         %tmp.4 = getv %tmp.3 :battery;
         lputv %battery.1 %tmp.4;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 151 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 147 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_stop" ]
         %height.2 = local;
         %tmp.5 = 12;
         lputv %height.2 %tmp.5;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 152 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 148 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_stop" ]
         %width.3 = local;
         %tmp.6 = 18;
         lputv %width.3 %tmp.6;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 153 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 149 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_stop" ]
         %x.4 = local;
         %tmp.8 = getv ? :screenWidth;
         %tmp.9 = 2;
@@ -621,41 +641,41 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.14 = div %tmp.12 %tmp.13;
         %tmp.15 = sub %tmp.10 %tmp.14;
         lputv %x.4 %tmp.15;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 154 2 ]
-        [ "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_start" "_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_stop" ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 150 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_stop" ]
         %y.5 = local;
         %tmp.17 = getv ? :screenHeight;
         %tmp.18 = 0.15;
         %tmp.19 = mul %tmp.17 %tmp.18;
         lputv %y.5 %tmp.19;
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 156 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 152 2 ]
         %tmp.20 = lgetv %dc;
         %tmp.21 = getv function %tmp.20 :setPenWidth;
         %tmp.22 = 2;
         invoke %tmp.20 %tmp.21(%tmp.22);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 157 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 153 2 ]
         %tmp.23 = lgetv %dc;
         %tmp.24 = getv function %tmp.23 :setColor;
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_begin:
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_begin:
         %tmp.26 = lgetv %battery.1;
         %tmp.27 = 20;
         %tmp.28 = lte %tmp.26 %tmp.27;
-        bf %tmp.28 @_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_false;
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_true:
+        bf %tmp.28 @_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_false;
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_true:
         %tmp.29 = getm $.Toybox.Graphics;
         %tmp.30 = getv %tmp.29 :COLOR_RED;
         push %tmp.30;
-        goto @_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_end;
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_false:
+        goto @_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_end;
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_false:
         %tmp.31 = getm $.Toybox.Graphics;
         %tmp.32 = getv %tmp.31 :COLOR_WHITE;
         push %tmp.32;
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_end:
-        %tmp.33 = phi [%tmp.28 @_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_begin] [%tmp.30 @_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_true] [%tmp.32 @_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_false] [%tmp.33 @_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_158_3_158_49_end];
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_end:
+        %tmp.33 = phi [%tmp.28 @_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_begin] [%tmp.30 @_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_true] [%tmp.32 @_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_false] [%tmp.33 @_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_154_3_154_49_end];
         %tmp.34 = getm $.Toybox.Graphics;
         %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
         invoke %tmp.23 %tmp.24(%tmp.33, %tmp.35);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 162 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 157 2 ]
         %tmp.36 = lgetv %dc;
         %tmp.37 = getv function %tmp.36 :drawRoundedRectangle;
         %tmp.39 = lgetv %x.4;
@@ -664,7 +684,7 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.45 = lgetv %height.2;
         %tmp.46 = 2;
         invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41, %tmp.43, %tmp.45, %tmp.46);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 164 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 158 2 ]
         %tmp.47 = lgetv %dc;
         %tmp.48 = getv function %tmp.47 :drawLine;
         %tmp.50 = lgetv %x.4;
@@ -686,7 +706,7 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.72 = 3;
         %tmp.73 = sub %tmp.71 %tmp.72;
         invoke %tmp.47 %tmp.48(%tmp.55, %tmp.59, %tmp.66, %tmp.73);
-[ "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc" 166 2 ]
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" 159 2 ]
         %tmp.74 = lgetv %dc;
         %tmp.75 = getv function %tmp.74 :fillRectangle;
         %tmp.77 = lgetv %x.4;
@@ -702,9 +722,9 @@ _Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_
         %tmp.90 = div %tmp.88 %tmp.89;
         %tmp.92 = lgetv %height.2;
         invoke %tmp.74 %tmp.75(%tmp.79, %tmp.81, %tmp.90, %tmp.92);
-_Users_kevinpotschien_Coding_irregularPractice_source_irregular_practiceView_mc_148_34_167_1_stop:
+_Users_kevinpotschien_Coding_ip_watch_face_source_irregular_practiceView_mc_144_34_160_1_stop:
     }
 }
-[ @file = "/Users/kevinpotschien/Coding/irregularPractice/source/irregular-practiceView.mc"; @line = 1; ]
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc"; @line = 1; ]
 <init> {
 }
