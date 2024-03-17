@@ -11,14 +11,31 @@ module Rez {
     } // Drawables
 
     module Layouts {
-        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(208 * 0.5), :locY=>((208 - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+        function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_bitmap_IpLogo = new WatchUi.Bitmap({:identifier=>"IpLogo", :rezId=>$.Rez.Drawables.IpLogo, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>WatchUi.LAYOUT_VALIGN_CENTER});
+            rez_cmp_local_bitmap_IpLogo.setLocation(((208 - rez_cmp_local_bitmap_IpLogo.width) * 0.5), ((208 - rez_cmp_local_bitmap_IpLogo.height) * 0.5));
 
-            return [rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_bitmap_IpLogo] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
     module Strings {
+        (:initialized) var pink as ResourceId;
+        (:initialized) var green as ResourceId;
+        (:initialized) var bgcolorT as ResourceId;
+        (:initialized) var black as ResourceId;
+        (:initialized) var yellow as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var red as ResourceId;
+        (:initialized) var orange as ResourceId;
+        (:initialized) var dkgray as ResourceId;
+        (:initialized) var white as ResourceId;
+        (:initialized) var blue as ResourceId;
+        (:initialized) var ltgray as ResourceId;
+        (:initialized) var dkblue as ResourceId;
+        (:initialized) var displayBattery_title as ResourceId;
+        (:initialized) var dkred as ResourceId;
+        (:initialized) var purple as ResourceId;
+        (:initialized) var dkgreen as ResourceId;
     } // Strings
 } // Rez

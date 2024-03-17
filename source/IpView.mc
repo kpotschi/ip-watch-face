@@ -2,19 +2,38 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.Application;
 
-class irregular_practiceView extends WatchUi.WatchFace {
-	private var screenWidth;
-	private var screenHeight;
+class IpView extends WatchUi.WatchFace {
+	var screenWidth as Number?;
+	var screenHeight as Number?;
+	var _screenShape as ScreenShape;
+	var app as Application.AppBase;
+	// private var _screenCenterPoint as Array<Number>?;
 
 	function initialize() {
 		WatchFace.initialize();
+		app = Application.getApp();
+		// screenWidth = 1;
+		// screenHeight = 1;
+		_screenShape = System.getDeviceSettings().screenShape;
 	}
 
 	public function onLayout(dc as Dc) as Void {
 		screenWidth = dc.getWidth();
 		screenHeight = dc.getHeight();
 		setLayout(Rez.Layouts.MainLayout(dc));
+		// var offscreenBufferOptions = {
+		// 	:width => dc.getWidth(),
+		// 	:height => dc.getHeight(),
+		// 	:palette => [
+		// 		Graphics.COLOR_DK_GRAY,
+		// 		Graphics.COLOR_LT_GRAY,
+		// 		Graphics.COLOR_BLACK,
+		// 		Graphics.COLOR_WHITE,
+		// 	],
+		// };
+		// _screenCenterPoint = [dc.getWidth() / 2, dc.getHeight() / 2];
 	}
 
 	public function onUpdate(dc as Dc) as Void {
@@ -22,13 +41,27 @@ class irregular_practiceView extends WatchUi.WatchFace {
 		// dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
 
 		// dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_BLACK);
-		//
+		// System.println(app.getProperty("displayBattery"));
+		drawCircle(dc);
 		drawHoursMinutes(dc);
 		drawClock(dc);
-		drawBattery(dc);
+		if (app.getProperty("displayBattery") == true) {
+			drawBattery(dc);
+		}
 	}
 
-	private function drawClock(dc) {
+	private function drawCircle(dc as Dc) as Void {
+		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_RED);
+		var strokeWidth = 3;
+		dc.setPenWidth(strokeWidth);
+
+		dc.drawCircle(
+			screenWidth / 2,
+			screenHeight / 2,
+			screenWidth / 2 - strokeWidth / 2
+		);
+	}
+	private function drawClock(dc as Dc) as Void {
 		var displayHeight = dc.getHeight();
 		var displayWidth = dc.getWidth();
 		var strokeWidth = 3;
@@ -36,13 +69,13 @@ class irregular_practiceView extends WatchUi.WatchFace {
 		dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_RED);
 		dc.setPenWidth(strokeWidth);
 
-		var clockTime = System.getClockTime();
-
 		dc.drawCircle(
 			displayWidth / 2,
 			displayHeight / 2,
 			displayWidth / 2 - strokeWidth / 2
 		);
+
+		var clockTime = System.getClockTime();
 
 		// mins
 		var min = clockTime.min;
@@ -113,7 +146,7 @@ class irregular_practiceView extends WatchUi.WatchFace {
 		]);
 	}
 
-	private function drawHoursMinutes(dc) {
+	private function drawHoursMinutes(dc as Dc) as Void {
 		var clockTime = System.getClockTime();
 		var hours = clockTime.hour.format("%02d");
 		var minutes = clockTime.min.format("%02d");
@@ -141,7 +174,7 @@ class irregular_practiceView extends WatchUi.WatchFace {
 		);
 	}
 
-	private function drawBattery(dc) {
+	private function drawBattery(dc as Dc) as Void {
 		var battery = System.getSystemStats().battery;
 
 		var height = 12;

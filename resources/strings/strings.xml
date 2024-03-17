@@ -1,3 +1,24 @@
 <strings>
     <string id="AppName">irregular-practice</string>
+    <string id="displayBattery_title">Display Battery</string>
+
+    <string id="bgcolorT">Background Color</string>
+    
+    <string id="white">White</string>
+    <string id="ltgray">Light Gray</string>
+    <string id="dkgray">Dark Gray</string>
+    <string id="black">Black</string>
+    
+    <string id="red">Red</string>
+    <string id="dkred">Dark Red</string>
+    <string id="orange">Orange</string>
+    <string id="yellow">Yellow</string>
+    
+    <string id="green">Green</string>
+    <string id="dkgreen">Dark Green</string>
+    <string id="blue">Blue</string>
+    <string id="dkblue">Dark Blue</string>
+    
+    <string id="purple">Purple</string>
+    <string id="pink">Pink</string>
 </strings>

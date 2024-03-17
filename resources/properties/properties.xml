@@ -1,0 +1,4 @@
+<properties>
+    <!-- <property id="bgcolor" type="number">3</property> -->
+    <property id="displayBattery" type="boolean">true</property>
+</properties>

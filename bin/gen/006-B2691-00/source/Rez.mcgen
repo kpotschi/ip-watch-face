@@ -20,6 +20,22 @@ module Rez {
     } // Layouts
 
     module Strings {
+        (:initialized) var pink as ResourceId;
+        (:initialized) var green as ResourceId;
+        (:initialized) var bgcolorT as ResourceId;
+        (:initialized) var black as ResourceId;
+        (:initialized) var yellow as ResourceId;
+        (:initialized) var show7daySteps_title as ResourceId;
         (:initialized) var AppName as ResourceId;
+        (:initialized) var red as ResourceId;
+        (:initialized) var orange as ResourceId;
+        (:initialized) var dkgray as ResourceId;
+        (:initialized) var white as ResourceId;
+        (:initialized) var blue as ResourceId;
+        (:initialized) var ltgray as ResourceId;
+        (:initialized) var dkblue as ResourceId;
+        (:initialized) var dkred as ResourceId;
+        (:initialized) var purple as ResourceId;
+        (:initialized) var dkgreen as ResourceId;
     } // Strings
 } // Rez

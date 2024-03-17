@@ -1,0 +1,805 @@
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 5; ]
+import Toybox.Application;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 7; ]
+class IpView extends WatchUi.WatchFace{
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 8; @position = 5; ]
+    var screenWidth as Number or Null;
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 9; @position = 5; ]
+    var screenHeight as Number or Null;
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 10; @position = 5; ]
+    var _screenShape as ScreenShape;
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 11; @position = 5; ]
+    var app as Application.AppBase;
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 14; ]
+    function initialize() as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_14_23_20_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 15 2 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 16 2 ]
+        %tmp.4 = getm $.Toybox.Application;
+        %tmp.5 = getv function %tmp.4 :getApp;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :app %tmp.6;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 19 2 ]
+        %tmp.7 = getm $.Toybox.System;
+        %tmp.8 = getv function %tmp.7 :getDeviceSettings;
+        %tmp.9 = invoke %tmp.7 %tmp.8();
+        %tmp.10 = getv %tmp.9 :screenShape;
+        putv self :_screenShape %tmp.10;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_14_23_20_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 22; ]
+    public
+    function onLayout(dc as Dc) as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_22_44_37_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 23 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getWidth;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        putv self :screenWidth %tmp.3;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 24 2 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getHeight;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        putv self :screenHeight %tmp.6;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 25 2 ]
+        %tmp.7 = self;
+        %tmp.8 = getv function %tmp.7 :setLayout;
+        %tmp.10 = getv ? :Rez;
+        %tmp.11 = getv %tmp.10 :Layouts;
+        %tmp.12 = getv function %tmp.11 :MainLayout;
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.14);
+        invoke %tmp.7 %tmp.8(%tmp.15);
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_22_44_37_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 39; ]
+    public
+    function onUpdate(dc as Dc) as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_39_44_51_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 40 2 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.5 = lgetv %dc;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 45 2 ]
+        %tmp.6 = self;
+        %tmp.7 = getv function %tmp.6 :drawCircle;
+        %tmp.9 = lgetv %dc;
+        invoke %tmp.6 %tmp.7(%tmp.9);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 46 2 ]
+        %tmp.10 = self;
+        %tmp.11 = getv function %tmp.10 :drawHoursMinutes;
+        %tmp.13 = lgetv %dc;
+        invoke %tmp.10 %tmp.11(%tmp.13);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 47 2 ]
+        %tmp.14 = self;
+        %tmp.15 = getv function %tmp.14 :drawClock;
+        %tmp.17 = lgetv %dc;
+        invoke %tmp.14 %tmp.15(%tmp.17);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 48 2 ]
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_2_50_2_if_stmt:
+        %tmp.19 = getv ? :app;
+        %tmp.20 = getv function %tmp.19 :getProperty;
+        %tmp.21 = "displayBattery";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        %tmp.23 = true;
+        %tmp.24 = eq %tmp.22 %tmp.23;
+        bf %tmp.24 @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_2_50_2_if_end;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_2_50_2_if_true:
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_49_50_2_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 49 3 ]
+        %tmp.25 = self;
+        %tmp.26 = getv function %tmp.25 :drawBattery;
+        %tmp.28 = lgetv %dc;
+        invoke %tmp.25 %tmp.26(%tmp.28);
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_49_50_2_stop:
+        goto @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_2_50_2_if_end;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_48_2_50_2_if_end:
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_39_44_51_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 53; ]
+    private
+    function drawCircle(dc as Dc) as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_53_47_63_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 54 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = getm $.Toybox.Graphics;
+        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
+        %tmp.5 = getm $.Toybox.Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_RED;
+        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 55 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_53_47_63_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_53_47_63_1_stop" ]
+        %strokeWidth.1 = local;
+        %tmp.7 = 3;
+        lputv %strokeWidth.1 %tmp.7;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 56 2 ]
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = getv function %tmp.8 :setPenWidth;
+        %tmp.11 = lgetv %strokeWidth.1;
+        invoke %tmp.8 %tmp.9(%tmp.11);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 58 2 ]
+        %tmp.12 = lgetv %dc;
+        %tmp.13 = getv function %tmp.12 :drawCircle;
+        %tmp.15 = getv ? :screenWidth;
+        %tmp.16 = 2;
+        %tmp.17 = div %tmp.15 %tmp.16;
+        %tmp.19 = getv ? :screenHeight;
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        %tmp.23 = getv ? :screenWidth;
+        %tmp.24 = 2;
+        %tmp.25 = div %tmp.23 %tmp.24;
+        %tmp.27 = lgetv %strokeWidth.1;
+        %tmp.28 = 2;
+        %tmp.29 = div %tmp.27 %tmp.28;
+        %tmp.30 = sub %tmp.25 %tmp.29;
+        invoke %tmp.12 %tmp.13(%tmp.17, %tmp.21, %tmp.30);
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_53_47_63_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 64; ]
+    private
+    function drawClock(dc as Dc) as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 65 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %displayHeight.1 = local;
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :getHeight;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %displayHeight.1 %tmp.3;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 66 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %displayWidth.2 = local;
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :getWidth;
+        %tmp.6 = invoke %tmp.4 %tmp.5();
+        lputv %displayWidth.2 %tmp.6;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 67 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %strokeWidth.3 = local;
+        %tmp.7 = 3;
+        lputv %strokeWidth.3 %tmp.7;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 69 2 ]
+        %tmp.8 = lgetv %dc;
+        %tmp.9 = getv function %tmp.8 :setColor;
+        %tmp.10 = getm $.Toybox.Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_WHITE;
+        %tmp.12 = getm $.Toybox.Graphics;
+        %tmp.13 = getv %tmp.12 :COLOR_RED;
+        invoke %tmp.8 %tmp.9(%tmp.11, %tmp.13);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 70 2 ]
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :setPenWidth;
+        %tmp.17 = lgetv %strokeWidth.3;
+        invoke %tmp.14 %tmp.15(%tmp.17);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 72 2 ]
+        %tmp.18 = lgetv %dc;
+        %tmp.19 = getv function %tmp.18 :drawCircle;
+        %tmp.21 = lgetv %displayWidth.2;
+        %tmp.22 = 2;
+        %tmp.23 = div %tmp.21 %tmp.22;
+        %tmp.25 = lgetv %displayHeight.1;
+        %tmp.26 = 2;
+        %tmp.27 = div %tmp.25 %tmp.26;
+        %tmp.29 = lgetv %displayWidth.2;
+        %tmp.30 = 2;
+        %tmp.31 = div %tmp.29 %tmp.30;
+        %tmp.33 = lgetv %strokeWidth.3;
+        %tmp.34 = 2;
+        %tmp.35 = div %tmp.33 %tmp.34;
+        %tmp.36 = sub %tmp.31 %tmp.35;
+        invoke %tmp.18 %tmp.19(%tmp.23, %tmp.27, %tmp.36);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 78 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %clockTime.4 = local;
+        %tmp.37 = getm $.Toybox.System;
+        %tmp.38 = getv function %tmp.37 :getClockTime;
+        %tmp.39 = invoke %tmp.37 %tmp.38();
+        lputv %clockTime.4 %tmp.39;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 81 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %min.5 = local;
+        %tmp.40 = lgetv %clockTime.4;
+        %tmp.41 = getv %tmp.40 :min;
+        lputv %min.5 %tmp.41;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 82 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minHandInset.6 = local;
+        %tmp.42 = 20;
+        lputv %minHandInset.6 %tmp.42;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 83 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minHandWidth.7 = local;
+        %tmp.43 = 0.02;
+        lputv %minHandWidth.7 %tmp.43;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 85 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minRadians.8 = local;
+        %tmp.44 = 6;
+        %tmp.46 = lgetv %min.5;
+        %tmp.47 = mul %tmp.44 %tmp.46;
+        %tmp.49 = getv ? :Math;
+        %tmp.50 = getv %tmp.49 :PI;
+        %tmp.51 = 180;
+        %tmp.52 = div %tmp.50 %tmp.51;
+        %tmp.53 = mul %tmp.47 %tmp.52;
+        %tmp.55 = getv ? :Math;
+        %tmp.56 = getv %tmp.55 :PI;
+        %tmp.57 = 2;
+        %tmp.58 = div %tmp.56 %tmp.57;
+        %tmp.59 = sub %tmp.53 %tmp.58;
+        lputv %minRadians.8 %tmp.59;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 87 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minX1.9 = local;
+        %tmp.61 = getv ? :Math;
+        %tmp.62 = getv function %tmp.61 :cos;
+        %tmp.64 = lgetv %minRadians.8;
+        %tmp.65 = invoke %tmp.61 %tmp.62(%tmp.64);
+        %tmp.67 = lgetv %displayWidth.2;
+        %tmp.68 = 2;
+        %tmp.69 = div %tmp.67 %tmp.68;
+        %tmp.71 = lgetv %minHandInset.6;
+        %tmp.72 = sub %tmp.69 %tmp.71;
+        %tmp.73 = mul %tmp.65 %tmp.72;
+        %tmp.75 = lgetv %displayWidth.2;
+        %tmp.76 = 2;
+        %tmp.77 = div %tmp.75 %tmp.76;
+        %tmp.78 = add %tmp.73 %tmp.77;
+        lputv %minX1.9 %tmp.78;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 90 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minY1.10 = local;
+        %tmp.80 = getv ? :Math;
+        %tmp.81 = getv function %tmp.80 :sin;
+        %tmp.83 = lgetv %minRadians.8;
+        %tmp.84 = invoke %tmp.80 %tmp.81(%tmp.83);
+        %tmp.86 = lgetv %displayHeight.1;
+        %tmp.87 = 2;
+        %tmp.88 = div %tmp.86 %tmp.87;
+        %tmp.90 = lgetv %minHandInset.6;
+        %tmp.91 = sub %tmp.88 %tmp.90;
+        %tmp.92 = mul %tmp.84 %tmp.91;
+        %tmp.94 = lgetv %displayWidth.2;
+        %tmp.95 = 2;
+        %tmp.96 = div %tmp.94 %tmp.95;
+        %tmp.97 = add %tmp.92 %tmp.96;
+        lputv %minY1.10 %tmp.97;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 94 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minX2.11 = local;
+        %tmp.99 = getv ? :Math;
+        %tmp.100 = getv function %tmp.99 :cos;
+        %tmp.102 = lgetv %minRadians.8;
+        %tmp.104 = lgetv %minHandWidth.7;
+        %tmp.105 = sub %tmp.102 %tmp.104;
+        %tmp.106 = invoke %tmp.99 %tmp.100(%tmp.105);
+        %tmp.108 = lgetv %displayWidth.2;
+        %tmp.109 = 2;
+        %tmp.110 = div %tmp.108 %tmp.109;
+        %tmp.111 = mul %tmp.106 %tmp.110;
+        %tmp.113 = lgetv %displayWidth.2;
+        %tmp.114 = 2;
+        %tmp.115 = div %tmp.113 %tmp.114;
+        %tmp.116 = add %tmp.111 %tmp.115;
+        lputv %minX2.11 %tmp.116;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 97 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minY2.12 = local;
+        %tmp.118 = getv ? :Math;
+        %tmp.119 = getv function %tmp.118 :sin;
+        %tmp.121 = lgetv %minRadians.8;
+        %tmp.123 = lgetv %minHandWidth.7;
+        %tmp.124 = sub %tmp.121 %tmp.123;
+        %tmp.125 = invoke %tmp.118 %tmp.119(%tmp.124);
+        %tmp.127 = lgetv %displayHeight.1;
+        %tmp.128 = 2;
+        %tmp.129 = div %tmp.127 %tmp.128;
+        %tmp.130 = mul %tmp.125 %tmp.129;
+        %tmp.132 = lgetv %displayWidth.2;
+        %tmp.133 = 2;
+        %tmp.134 = div %tmp.132 %tmp.133;
+        %tmp.135 = add %tmp.130 %tmp.134;
+        lputv %minY2.12 %tmp.135;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 101 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minX3.13 = local;
+        %tmp.137 = getv ? :Math;
+        %tmp.138 = getv function %tmp.137 :cos;
+        %tmp.140 = lgetv %minRadians.8;
+        %tmp.142 = lgetv %minHandWidth.7;
+        %tmp.143 = add %tmp.140 %tmp.142;
+        %tmp.144 = invoke %tmp.137 %tmp.138(%tmp.143);
+        %tmp.146 = lgetv %displayWidth.2;
+        %tmp.147 = 2;
+        %tmp.148 = div %tmp.146 %tmp.147;
+        %tmp.149 = mul %tmp.144 %tmp.148;
+        %tmp.151 = lgetv %displayWidth.2;
+        %tmp.152 = 2;
+        %tmp.153 = div %tmp.151 %tmp.152;
+        %tmp.154 = add %tmp.149 %tmp.153;
+        lputv %minX3.13 %tmp.154;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 104 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minY3.14 = local;
+        %tmp.156 = getv ? :Math;
+        %tmp.157 = getv function %tmp.156 :sin;
+        %tmp.159 = lgetv %minRadians.8;
+        %tmp.161 = lgetv %minHandWidth.7;
+        %tmp.162 = add %tmp.159 %tmp.161;
+        %tmp.163 = invoke %tmp.156 %tmp.157(%tmp.162);
+        %tmp.165 = lgetv %displayHeight.1;
+        %tmp.166 = 2;
+        %tmp.167 = div %tmp.165 %tmp.166;
+        %tmp.168 = mul %tmp.163 %tmp.167;
+        %tmp.170 = lgetv %displayWidth.2;
+        %tmp.171 = 2;
+        %tmp.172 = div %tmp.170 %tmp.171;
+        %tmp.173 = add %tmp.168 %tmp.172;
+        lputv %minY3.14 %tmp.173;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 107 2 ]
+        %tmp.174 = lgetv %dc;
+        %tmp.175 = getv function %tmp.174 :fillPolygon;
+        %tmp.176 = newa 3;
+        %tmp.177 = newa 2;
+        %tmp.179 = lgetv %minX1.9;
+        %tmp.180 = dup %tmp.177;
+        %tmp.181 = aputv %tmp.180 0 %tmp.179;
+        %tmp.183 = lgetv %minY1.10;
+        %tmp.184 = dup %tmp.181;
+        %tmp.185 = aputv %tmp.184 1 %tmp.183;
+        %tmp.186 = dup %tmp.176;
+        %tmp.187 = aputv %tmp.186 0 %tmp.185;
+        %tmp.188 = newa 2;
+        %tmp.190 = lgetv %minX2.11;
+        %tmp.191 = dup %tmp.188;
+        %tmp.192 = aputv %tmp.191 0 %tmp.190;
+        %tmp.194 = lgetv %minY2.12;
+        %tmp.195 = dup %tmp.192;
+        %tmp.196 = aputv %tmp.195 1 %tmp.194;
+        %tmp.197 = dup %tmp.187;
+        %tmp.198 = aputv %tmp.197 1 %tmp.196;
+        %tmp.199 = newa 2;
+        %tmp.201 = lgetv %minX3.13;
+        %tmp.202 = dup %tmp.199;
+        %tmp.203 = aputv %tmp.202 0 %tmp.201;
+        %tmp.205 = lgetv %minY3.14;
+        %tmp.206 = dup %tmp.203;
+        %tmp.207 = aputv %tmp.206 1 %tmp.205;
+        %tmp.208 = dup %tmp.198;
+        %tmp.209 = aputv %tmp.208 2 %tmp.207;
+        invoke %tmp.174 %tmp.175(%tmp.209);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 114 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hour.15 = local;
+        %tmp.210 = lgetv %clockTime.4;
+        %tmp.211 = getv %tmp.210 :hour;
+        %tmp.212 = 12;
+        %tmp.213 = mod %tmp.211 %tmp.212;
+        lputv %hour.15 %tmp.213;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 115 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourHandInset.16 = local;
+        %tmp.214 = 10;
+        lputv %hourHandInset.16 %tmp.214;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 116 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hoursHandWidth.17 = local;
+        %tmp.215 = 0.04;
+        lputv %hoursHandWidth.17 %tmp.215;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 118 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourDeg.18 = local;
+        %tmp.216 = 30;
+        %tmp.218 = lgetv %hour.15;
+        %tmp.219 = mul %tmp.216 %tmp.218;
+        lputv %hourDeg.18 %tmp.219;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 119 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %minDeg.19 = local;
+        %tmp.221 = lgetv %min.5;
+        %tmp.222 = 0.5;
+        %tmp.223 = mul %tmp.221 %tmp.222;
+        lputv %minDeg.19 %tmp.223;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 120 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourRadians.20 = local;
+        %tmp.225 = lgetv %hourDeg.18;
+        %tmp.227 = lgetv %minDeg.19;
+        %tmp.228 = add %tmp.225 %tmp.227;
+        %tmp.230 = getv ? :Math;
+        %tmp.231 = getv %tmp.230 :PI;
+        %tmp.232 = 180;
+        %tmp.233 = div %tmp.231 %tmp.232;
+        %tmp.234 = mul %tmp.228 %tmp.233;
+        %tmp.236 = getv ? :Math;
+        %tmp.237 = getv %tmp.236 :PI;
+        %tmp.238 = 2;
+        %tmp.239 = div %tmp.237 %tmp.238;
+        %tmp.240 = sub %tmp.234 %tmp.239;
+        lputv %hourRadians.20 %tmp.240;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 122 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourX1.21 = local;
+        %tmp.242 = getv ? :Math;
+        %tmp.243 = getv function %tmp.242 :cos;
+        %tmp.245 = lgetv %hourRadians.20;
+        %tmp.246 = invoke %tmp.242 %tmp.243(%tmp.245);
+        %tmp.248 = lgetv %displayWidth.2;
+        %tmp.249 = 2;
+        %tmp.250 = div %tmp.248 %tmp.249;
+        %tmp.252 = lgetv %hourHandInset.16;
+        %tmp.253 = sub %tmp.250 %tmp.252;
+        %tmp.254 = mul %tmp.246 %tmp.253;
+        %tmp.256 = lgetv %displayWidth.2;
+        %tmp.257 = 2;
+        %tmp.258 = div %tmp.256 %tmp.257;
+        %tmp.259 = add %tmp.254 %tmp.258;
+        lputv %hourX1.21 %tmp.259;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 125 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourY1.22 = local;
+        %tmp.261 = getv ? :Math;
+        %tmp.262 = getv function %tmp.261 :sin;
+        %tmp.264 = lgetv %hourRadians.20;
+        %tmp.265 = invoke %tmp.261 %tmp.262(%tmp.264);
+        %tmp.267 = lgetv %displayHeight.1;
+        %tmp.268 = 2;
+        %tmp.269 = div %tmp.267 %tmp.268;
+        %tmp.271 = lgetv %hourHandInset.16;
+        %tmp.272 = sub %tmp.269 %tmp.271;
+        %tmp.273 = mul %tmp.265 %tmp.272;
+        %tmp.275 = lgetv %displayWidth.2;
+        %tmp.276 = 2;
+        %tmp.277 = div %tmp.275 %tmp.276;
+        %tmp.278 = add %tmp.273 %tmp.277;
+        lputv %hourY1.22 %tmp.278;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 129 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourX2.23 = local;
+        %tmp.280 = getv ? :Math;
+        %tmp.281 = getv function %tmp.280 :cos;
+        %tmp.283 = lgetv %hourRadians.20;
+        %tmp.285 = lgetv %hoursHandWidth.17;
+        %tmp.286 = sub %tmp.283 %tmp.285;
+        %tmp.287 = invoke %tmp.280 %tmp.281(%tmp.286);
+        %tmp.289 = lgetv %displayWidth.2;
+        %tmp.290 = 2;
+        %tmp.291 = div %tmp.289 %tmp.290;
+        %tmp.292 = mul %tmp.287 %tmp.291;
+        %tmp.294 = lgetv %displayWidth.2;
+        %tmp.295 = 2;
+        %tmp.296 = div %tmp.294 %tmp.295;
+        %tmp.297 = add %tmp.292 %tmp.296;
+        lputv %hourX2.23 %tmp.297;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 132 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourY2.24 = local;
+        %tmp.299 = getv ? :Math;
+        %tmp.300 = getv function %tmp.299 :sin;
+        %tmp.302 = lgetv %hourRadians.20;
+        %tmp.304 = lgetv %hoursHandWidth.17;
+        %tmp.305 = sub %tmp.302 %tmp.304;
+        %tmp.306 = invoke %tmp.299 %tmp.300(%tmp.305);
+        %tmp.308 = lgetv %displayHeight.1;
+        %tmp.309 = 2;
+        %tmp.310 = div %tmp.308 %tmp.309;
+        %tmp.311 = mul %tmp.306 %tmp.310;
+        %tmp.313 = lgetv %displayWidth.2;
+        %tmp.314 = 2;
+        %tmp.315 = div %tmp.313 %tmp.314;
+        %tmp.316 = add %tmp.311 %tmp.315;
+        lputv %hourY2.24 %tmp.316;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 136 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourX3.25 = local;
+        %tmp.318 = getv ? :Math;
+        %tmp.319 = getv function %tmp.318 :cos;
+        %tmp.321 = lgetv %hourRadians.20;
+        %tmp.323 = lgetv %hoursHandWidth.17;
+        %tmp.324 = add %tmp.321 %tmp.323;
+        %tmp.325 = invoke %tmp.318 %tmp.319(%tmp.324);
+        %tmp.327 = lgetv %displayWidth.2;
+        %tmp.328 = 2;
+        %tmp.329 = div %tmp.327 %tmp.328;
+        %tmp.330 = mul %tmp.325 %tmp.329;
+        %tmp.332 = lgetv %displayWidth.2;
+        %tmp.333 = 2;
+        %tmp.334 = div %tmp.332 %tmp.333;
+        %tmp.335 = add %tmp.330 %tmp.334;
+        lputv %hourX3.25 %tmp.335;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 139 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop" ]
+        %hourY3.26 = local;
+        %tmp.337 = getv ? :Math;
+        %tmp.338 = getv function %tmp.337 :sin;
+        %tmp.340 = lgetv %hourRadians.20;
+        %tmp.342 = lgetv %hoursHandWidth.17;
+        %tmp.343 = add %tmp.340 %tmp.342;
+        %tmp.344 = invoke %tmp.337 %tmp.338(%tmp.343);
+        %tmp.346 = lgetv %displayHeight.1;
+        %tmp.347 = 2;
+        %tmp.348 = div %tmp.346 %tmp.347;
+        %tmp.349 = mul %tmp.344 %tmp.348;
+        %tmp.351 = lgetv %displayWidth.2;
+        %tmp.352 = 2;
+        %tmp.353 = div %tmp.351 %tmp.352;
+        %tmp.354 = add %tmp.349 %tmp.353;
+        lputv %hourY3.26 %tmp.354;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 142 2 ]
+        %tmp.355 = lgetv %dc;
+        %tmp.356 = getv function %tmp.355 :fillPolygon;
+        %tmp.357 = newa 3;
+        %tmp.358 = newa 2;
+        %tmp.360 = lgetv %hourX1.21;
+        %tmp.361 = dup %tmp.358;
+        %tmp.362 = aputv %tmp.361 0 %tmp.360;
+        %tmp.364 = lgetv %hourY1.22;
+        %tmp.365 = dup %tmp.362;
+        %tmp.366 = aputv %tmp.365 1 %tmp.364;
+        %tmp.367 = dup %tmp.357;
+        %tmp.368 = aputv %tmp.367 0 %tmp.366;
+        %tmp.369 = newa 2;
+        %tmp.371 = lgetv %hourX2.23;
+        %tmp.372 = dup %tmp.369;
+        %tmp.373 = aputv %tmp.372 0 %tmp.371;
+        %tmp.375 = lgetv %hourY2.24;
+        %tmp.376 = dup %tmp.373;
+        %tmp.377 = aputv %tmp.376 1 %tmp.375;
+        %tmp.378 = dup %tmp.368;
+        %tmp.379 = aputv %tmp.378 1 %tmp.377;
+        %tmp.380 = newa 2;
+        %tmp.382 = lgetv %hourX3.25;
+        %tmp.383 = dup %tmp.380;
+        %tmp.384 = aputv %tmp.383 0 %tmp.382;
+        %tmp.386 = lgetv %hourY3.26;
+        %tmp.387 = dup %tmp.384;
+        %tmp.388 = aputv %tmp.387 1 %tmp.386;
+        %tmp.389 = dup %tmp.379;
+        %tmp.390 = aputv %tmp.389 2 %tmp.388;
+        invoke %tmp.355 %tmp.356(%tmp.390);
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_64_46_147_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 149; ]
+    private
+    function drawHoursMinutes(dc as Dc) as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 150 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 151 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %hours.2 = local;
+        %tmp.4 = lgetv %clockTime.1;
+        %tmp.5 = getv %tmp.4 :hour;
+        %tmp.6 = getv function %tmp.5 :format;
+        %tmp.7 = "%02d";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        lputv %hours.2 %tmp.8;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 152 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %minutes.3 = local;
+        %tmp.9 = lgetv %clockTime.1;
+        %tmp.10 = getv %tmp.9 :min;
+        %tmp.11 = getv function %tmp.10 :format;
+        %tmp.12 = "%02d";
+        %tmp.13 = invoke %tmp.10 %tmp.11(%tmp.12);
+        lputv %minutes.3 %tmp.13;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 153 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %x.4 = local;
+        %tmp.14 = lgetv %dc;
+        %tmp.15 = getv function %tmp.14 :getWidth;
+        %tmp.16 = invoke %tmp.14 %tmp.15();
+        %tmp.17 = 2;
+        %tmp.18 = div %tmp.16 %tmp.17;
+        lputv %x.4 %tmp.18;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 154 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %y.5 = local;
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :getHeight;
+        %tmp.21 = invoke %tmp.19 %tmp.20();
+        %tmp.22 = 0.8;
+        %tmp.23 = mul %tmp.21 %tmp.22;
+        lputv %y.5 %tmp.23;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 155 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %yOffset.6 = local;
+        %tmp.24 = 2;
+        lputv %yOffset.6 %tmp.24;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 156 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop" ]
+        %xSpread.7 = local;
+        %tmp.25 = 1;
+        lputv %xSpread.7 %tmp.25;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 159 2 ]
+        %tmp.26 = lgetv %dc;
+        %tmp.27 = getv function %tmp.26 :setColor;
+        %tmp.28 = getm $.Toybox.Graphics;
+        %tmp.29 = getv %tmp.28 :COLOR_WHITE;
+        %tmp.30 = getm $.Toybox.Graphics;
+        %tmp.31 = getv %tmp.30 :COLOR_TRANSPARENT;
+        invoke %tmp.26 %tmp.27(%tmp.29, %tmp.31);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 160 2 ]
+        %tmp.32 = lgetv %dc;
+        %tmp.33 = getv function %tmp.32 :drawText;
+        %tmp.35 = lgetv %x.4;
+        %tmp.37 = lgetv %xSpread.7;
+        %tmp.38 = sub %tmp.35 %tmp.37;
+        %tmp.40 = lgetv %y.5;
+        %tmp.42 = lgetv %yOffset.6;
+        %tmp.43 = sub %tmp.40 %tmp.42;
+        %tmp.44 = getm $.Toybox.Graphics;
+        %tmp.45 = getv %tmp.44 :FONT_NUMBER_MILD;
+        %tmp.47 = lgetv %hours.2;
+        %tmp.48 = getm $.Toybox.Graphics;
+        %tmp.49 = getv %tmp.48 :TEXT_JUSTIFY_RIGHT;
+        %tmp.50 = getm $.Toybox.Graphics;
+        %tmp.51 = getv %tmp.50 :TEXT_JUSTIFY_VCENTER;
+        %tmp.52 = bitor %tmp.49 %tmp.51;
+        invoke %tmp.32 %tmp.33(%tmp.38, %tmp.43, %tmp.45, %tmp.47, %tmp.52);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 168 2 ]
+        %tmp.53 = lgetv %dc;
+        %tmp.54 = getv function %tmp.53 :drawText;
+        %tmp.56 = lgetv %x.4;
+        %tmp.58 = lgetv %xSpread.7;
+        %tmp.59 = add %tmp.56 %tmp.58;
+        %tmp.61 = lgetv %y.5;
+        %tmp.63 = lgetv %yOffset.6;
+        %tmp.64 = add %tmp.61 %tmp.63;
+        %tmp.65 = getm $.Toybox.Graphics;
+        %tmp.66 = getv %tmp.65 :FONT_NUMBER_MILD;
+        %tmp.68 = lgetv %minutes.3;
+        %tmp.69 = getm $.Toybox.Graphics;
+        %tmp.70 = getv %tmp.69 :TEXT_JUSTIFY_LEFT;
+        %tmp.71 = getm $.Toybox.Graphics;
+        %tmp.72 = getv %tmp.71 :TEXT_JUSTIFY_VCENTER;
+        %tmp.73 = bitor %tmp.70 %tmp.72;
+        invoke %tmp.53 %tmp.54(%tmp.59, %tmp.64, %tmp.66, %tmp.68, %tmp.73);
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_149_53_175_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 177; ]
+    private
+    function drawBattery(dc as Dc) as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 178 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_stop" ]
+        %battery.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getSystemStats;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        %tmp.4 = getv %tmp.3 :battery;
+        lputv %battery.1 %tmp.4;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 180 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_stop" ]
+        %height.2 = local;
+        %tmp.5 = 12;
+        lputv %height.2 %tmp.5;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 181 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_stop" ]
+        %width.3 = local;
+        %tmp.6 = 18;
+        lputv %width.3 %tmp.6;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 182 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_stop" ]
+        %x.4 = local;
+        %tmp.8 = getv ? :screenWidth;
+        %tmp.9 = 2;
+        %tmp.10 = div %tmp.8 %tmp.9;
+        %tmp.12 = lgetv %width.3;
+        %tmp.13 = 2;
+        %tmp.14 = div %tmp.12 %tmp.13;
+        %tmp.15 = sub %tmp.10 %tmp.14;
+        lputv %x.4 %tmp.15;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 183 2 ]
+        [ "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_start" "_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_stop" ]
+        %y.5 = local;
+        %tmp.17 = getv ? :screenHeight;
+        %tmp.18 = 0.15;
+        %tmp.19 = mul %tmp.17 %tmp.18;
+        lputv %y.5 %tmp.19;
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 185 2 ]
+        %tmp.20 = lgetv %dc;
+        %tmp.21 = getv function %tmp.20 :setPenWidth;
+        %tmp.22 = 2;
+        invoke %tmp.20 %tmp.21(%tmp.22);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 186 2 ]
+        %tmp.23 = lgetv %dc;
+        %tmp.24 = getv function %tmp.23 :setColor;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_begin:
+        %tmp.26 = lgetv %battery.1;
+        %tmp.27 = 20;
+        %tmp.28 = lte %tmp.26 %tmp.27;
+        bf %tmp.28 @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_false;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_true:
+        %tmp.29 = getm $.Toybox.Graphics;
+        %tmp.30 = getv %tmp.29 :COLOR_RED;
+        push %tmp.30;
+        goto @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_end;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_false:
+        %tmp.31 = getm $.Toybox.Graphics;
+        %tmp.32 = getv %tmp.31 :COLOR_WHITE;
+        push %tmp.32;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_end:
+        %tmp.33 = phi [%tmp.28 @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_begin] [%tmp.30 @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_true] [%tmp.32 @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_false] [%tmp.33 @_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_187_3_187_49_end];
+        %tmp.34 = getm $.Toybox.Graphics;
+        %tmp.35 = getv %tmp.34 :COLOR_TRANSPARENT;
+        invoke %tmp.23 %tmp.24(%tmp.33, %tmp.35);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 190 2 ]
+        %tmp.36 = lgetv %dc;
+        %tmp.37 = getv function %tmp.36 :drawRoundedRectangle;
+        %tmp.39 = lgetv %x.4;
+        %tmp.41 = lgetv %y.5;
+        %tmp.43 = lgetv %width.3;
+        %tmp.45 = lgetv %height.2;
+        %tmp.46 = 2;
+        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41, %tmp.43, %tmp.45, %tmp.46);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 191 2 ]
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :drawLine;
+        %tmp.50 = lgetv %x.4;
+        %tmp.52 = lgetv %width.3;
+        %tmp.53 = add %tmp.50 %tmp.52;
+        %tmp.54 = 1;
+        %tmp.55 = add %tmp.53 %tmp.54;
+        %tmp.57 = lgetv %y.5;
+        %tmp.58 = 3;
+        %tmp.59 = add %tmp.57 %tmp.58;
+        %tmp.61 = lgetv %x.4;
+        %tmp.63 = lgetv %width.3;
+        %tmp.64 = add %tmp.61 %tmp.63;
+        %tmp.65 = 1;
+        %tmp.66 = add %tmp.64 %tmp.65;
+        %tmp.68 = lgetv %y.5;
+        %tmp.70 = lgetv %height.2;
+        %tmp.71 = add %tmp.68 %tmp.70;
+        %tmp.72 = 3;
+        %tmp.73 = sub %tmp.71 %tmp.72;
+        invoke %tmp.47 %tmp.48(%tmp.55, %tmp.59, %tmp.66, %tmp.73);
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" 192 2 ]
+        %tmp.74 = lgetv %dc;
+        %tmp.75 = getv function %tmp.74 :fillRectangle;
+        %tmp.77 = lgetv %x.4;
+        %tmp.78 = 1;
+        %tmp.79 = add %tmp.77 %tmp.78;
+        %tmp.81 = lgetv %y.5;
+        %tmp.83 = lgetv %width.3;
+        %tmp.84 = 2;
+        %tmp.85 = sub %tmp.83 %tmp.84;
+        %tmp.87 = lgetv %battery.1;
+        %tmp.88 = mul %tmp.85 %tmp.87;
+        %tmp.89 = 100;
+        %tmp.90 = div %tmp.88 %tmp.89;
+        %tmp.92 = lgetv %height.2;
+        invoke %tmp.74 %tmp.75(%tmp.79, %tmp.81, %tmp.90, %tmp.92);
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpView_mc_177_48_193_1_stop:
+    }
+}
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc"; @line = 1; ]
+<init> {
+}

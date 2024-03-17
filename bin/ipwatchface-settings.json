@@ -1,0 +1,40 @@
+{
+  "settings" : [ {
+    "key" : "displayBattery",
+    "valueType" : "boolean",
+    "defaultValue" : true,
+    "configTitle" : "displayBattery_title",
+    "configPrompt" : null,
+    "configType" : "boolean",
+    "configError" : null,
+    "configHelpUrl" : null,
+    "configReadonly" : false,
+    "configRequired" : false,
+    "configOptions" : null,
+    "configMin" : null,
+    "configMax" : null,
+    "configMaxLength" : null
+  } ],
+  "supportsLiveValidation" : false,
+  "languages" : {
+    "valyrian" : {
+      "pink" : "Pink",
+      "green" : "Green",
+      "bgcolorT" : "Background Color",
+      "black" : "Black",
+      "yellow" : "Yellow",
+      "AppName" : "irregular-practice",
+      "red" : "Red",
+      "orange" : "Orange",
+      "dkgray" : "Dark Gray",
+      "white" : "White",
+      "blue" : "Blue",
+      "ltgray" : "Light Gray",
+      "dkblue" : "Dark Blue",
+      "displayBattery_title" : "Display Battery",
+      "dkred" : "Dark Red",
+      "purple" : "Purple",
+      "dkgreen" : "Dark Green"
+    }
+  }
+}

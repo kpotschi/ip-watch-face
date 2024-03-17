@@ -1,0 +1,67 @@
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 5; ]
+class IpApp extends Application.AppBase{
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 6; ]
+    function initialize() as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_6_23_8_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" 7 2 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_6_23_8_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 11; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 14; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 17; ]
+    function getInitialView() as [Views] or [Views, InputDelegates] {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_17_65_19_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" 18 2 ]
+        %tmp.1 = newa 1;
+        %tmp.5 = getv ? :IpView;
+        %tmp.2 = newc %tmp.5 ();
+        %tmp.6 = dup %tmp.1;
+        %tmp.7 = aputv %tmp.6 0 %tmp.2;
+        ret %tmp.7;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_17_65_19_1_stop:
+    }
+    [ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 21; ]
+    public
+    function onSettingsChanged() as Void {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_21_45_23_1_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" 22 2 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :requestUpdate;
+        invoke %tmp.1 %tmp.2();
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_21_45_23_1_stop:
+    }
+}
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 26; ]
+function getApp() as IpApp {
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_26_27_28_0_start:
+[ "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" 27 1 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 IpApp;
+    ret %tmp.4;
+_Users_kevinpotschien_Coding_ip_watch_face_source_IpApp_mc_26_27_28_0_stop:
+}
+[ @file = "/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc"; @line = 1; ]
+<init> {
+}

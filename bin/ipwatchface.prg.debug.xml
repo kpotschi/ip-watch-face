@@ -2,223 +2,266 @@
 <debugInfo>
 <manifest filename="/Users/kevinpotschien/Coding/ip-watch-face/manifest.xml"/>
 <pcToLineNum>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="1" lineNum="6" parent="globals/irregular_practiceView" pc="268435460" symbol="&lt;init&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B2691-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="4" lineNum="5" parent="globals/irregular_practiceApp" pc="268435529" symbol="&lt;init&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="116" parent="globals/irregular_practiceView" pc="268435548" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="117" parent="globals/irregular_practiceView" pc="268435552" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="118" parent="globals/irregular_practiceView" pc="268435569" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="119" parent="globals/irregular_practiceView" pc="268435593" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="120" parent="globals/irregular_practiceView" pc="268435617" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="121" parent="globals/irregular_practiceView" pc="268435636" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="122" parent="globals/irregular_practiceView" pc="268435655" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="123" parent="globals/irregular_practiceView" pc="268435662" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="126" parent="globals/irregular_practiceView" pc="268435669" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="127" parent="globals/irregular_practiceView" pc="268435691" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="5" lineNum="135" parent="globals/irregular_practiceView" pc="268435725" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="6" lineNum="14" parent="globals/irregular_practiceView" pc="268435760" symbol="onLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="6" lineNum="15" parent="globals/irregular_practiceView" pc="268435762" symbol="onLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="6" lineNum="16" parent="globals/irregular_practiceView" pc="268435781" symbol="onLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="6" lineNum="17" parent="globals/irregular_practiceView" pc="268435800" symbol="onLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="144" parent="globals/irregular_practiceView" pc="268435842" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="145" parent="globals/irregular_practiceView" pc="268435846" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="147" parent="globals/irregular_practiceView" pc="268435869" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="148" parent="globals/irregular_practiceView" pc="268435876" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="149" parent="globals/irregular_practiceView" pc="268435883" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="150" parent="globals/irregular_practiceView" pc="268435908" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="152" parent="globals/irregular_practiceView" pc="268435924" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="153" parent="globals/irregular_practiceView" pc="268435941" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="157" parent="globals/irregular_practiceView" pc="268435982" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="158" parent="globals/irregular_practiceView" pc="268436007" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="7" lineNum="159" parent="globals/irregular_practiceView" pc="268436060" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="8" lineNum="10" parent="globals/irregular_practiceView" pc="268436102" symbol="initialize"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="8" lineNum="11" parent="globals/irregular_practiceView" pc="268436104" symbol="initialize"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="31" parent="globals/irregular_practiceView" pc="268436123" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="32" parent="globals/irregular_practiceView" pc="268436127" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="33" parent="globals/irregular_practiceView" pc="268436140" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="34" parent="globals/irregular_practiceView" pc="268436153" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="36" parent="globals/irregular_practiceView" pc="268436160" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="37" parent="globals/irregular_practiceView" pc="268436182" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="39" parent="globals/irregular_practiceView" pc="268436196" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="41" parent="globals/irregular_practiceView" pc="268436213" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="48" parent="globals/irregular_practiceView" pc="268436258" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="49" parent="globals/irregular_practiceView" pc="268436268" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="50" parent="globals/irregular_practiceView" pc="268436275" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="52" parent="globals/irregular_practiceView" pc="268436282" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="54" parent="globals/irregular_practiceView" pc="268436304" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="57" parent="globals/irregular_practiceView" pc="268436346" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="61" parent="globals/irregular_practiceView" pc="268436388" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="64" parent="globals/irregular_practiceView" pc="268436430" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="68" parent="globals/irregular_practiceView" pc="268436472" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="71" parent="globals/irregular_practiceView" pc="268436514" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="74" parent="globals/irregular_practiceView" pc="268436556" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="81" parent="globals/irregular_practiceView" pc="268436676" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="82" parent="globals/irregular_practiceView" pc="268436692" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="83" parent="globals/irregular_practiceView" pc="268436699" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="85" parent="globals/irregular_practiceView" pc="268436706" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="86" parent="globals/irregular_practiceView" pc="268436716" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="87" parent="globals/irregular_practiceView" pc="268436726" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="89" parent="globals/irregular_practiceView" pc="268436745" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="92" parent="globals/irregular_practiceView" pc="268436787" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="96" parent="globals/irregular_practiceView" pc="268436829" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="99" parent="globals/irregular_practiceView" pc="268436871" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="103" parent="globals/irregular_practiceView" pc="268436913" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="106" parent="globals/irregular_practiceView" pc="268436955" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="9" lineNum="109" parent="globals/irregular_practiceView" pc="268436997" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="10" lineNum="20" parent="globals/irregular_practiceView" pc="268437118" symbol="onUpdate"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="10" lineNum="21" parent="globals/irregular_practiceView" pc="268437120" symbol="onUpdate"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="10" lineNum="26" parent="globals/irregular_practiceView" pc="268437140" symbol="onUpdate"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="10" lineNum="27" parent="globals/irregular_practiceView" pc="268437154" symbol="onUpdate"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceView.mc" id="10" lineNum="28" parent="globals/irregular_practiceView" pc="268437168" symbol="onUpdate"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="11" lineNum="12" parent="globals/irregular_practiceApp" pc="268437183" symbol="onStart"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="12" lineNum="20" parent="globals/irregular_practiceApp" pc="268437186" symbol="getInitialView"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="12" lineNum="21" parent="globals/irregular_practiceApp" pc="268437188" symbol="getInitialView"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="13" lineNum="7" parent="globals/irregular_practiceApp" pc="268437229" symbol="initialize"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="13" lineNum="8" parent="globals/irregular_practiceApp" pc="268437231" symbol="initialize"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/irregular-practiceApp.mc" id="14" lineNum="16" parent="globals/irregular_practiceApp" pc="268437250" symbol="onStop"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B2691-00/source/Rez.mcgen" id="15" lineNum="14" parent="globals/Rez/Layouts" pc="268437253" symbol="MainLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B2691-00/source/Rez.mcgen" id="15" lineNum="15" parent="globals/Rez/Layouts" pc="268437265" symbol="MainLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B2691-00/source/Rez.mcgen" id="15" lineNum="16" parent="globals/Rez/Layouts" pc="268437370" symbol="MainLayout"/>
-<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B2691-00/source/Rez.mcgen" id="15" lineNum="18" parent="globals/Rez/Layouts" pc="268437422" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="1" lineNum="5" parent="globals/IpApp" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="2" lineNum="26" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="2" lineNum="27" parent="globals" pc="268435489" symbol="getApp"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B3282-00/source/Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435505" symbol="&lt;init&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="4" lineNum="7" parent="globals/IpView" pc="268435524" symbol="&lt;init&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="5" lineNum="11" parent="globals/IpApp" pc="268435543" symbol="onStart"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="6" lineNum="21" parent="globals/IpApp" pc="268435546" symbol="onSettingsChanged"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="6" lineNum="22" parent="globals/IpApp" pc="268435548" symbol="onSettingsChanged"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="7" lineNum="17" parent="globals/IpApp" pc="268435565" symbol="getInitialView"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="7" lineNum="18" parent="globals/IpApp" pc="268435567" symbol="getInitialView"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="8" lineNum="6" parent="globals/IpApp" pc="268435608" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="8" lineNum="7" parent="globals/IpApp" pc="268435610" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpApp.mc" id="9" lineNum="14" parent="globals/IpApp" pc="268435629" symbol="onStop"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="149" parent="globals/IpView" pc="268435632" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="150" parent="globals/IpView" pc="268435636" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="151" parent="globals/IpView" pc="268435653" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="152" parent="globals/IpView" pc="268435677" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="153" parent="globals/IpView" pc="268435701" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="154" parent="globals/IpView" pc="268435720" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="155" parent="globals/IpView" pc="268435739" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="156" parent="globals/IpView" pc="268435746" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="159" parent="globals/IpView" pc="268435753" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="160" parent="globals/IpView" pc="268435775" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="10" lineNum="168" parent="globals/IpView" pc="268435809" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="11" lineNum="22" parent="globals/IpView" pc="268435844" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="11" lineNum="23" parent="globals/IpView" pc="268435846" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="11" lineNum="24" parent="globals/IpView" pc="268435865" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="11" lineNum="25" parent="globals/IpView" pc="268435884" symbol="onLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="12" lineNum="53" parent="globals/IpView" pc="268435926" symbol="&lt;globals/IpView/&lt;&gt;drawCircle&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="12" lineNum="54" parent="globals/IpView" pc="268435930" symbol="&lt;globals/IpView/&lt;&gt;drawCircle&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="12" lineNum="55" parent="globals/IpView" pc="268435952" symbol="&lt;globals/IpView/&lt;&gt;drawCircle&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="12" lineNum="56" parent="globals/IpView" pc="268435959" symbol="&lt;globals/IpView/&lt;&gt;drawCircle&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="12" lineNum="58" parent="globals/IpView" pc="268435973" symbol="&lt;globals/IpView/&lt;&gt;drawCircle&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="177" parent="globals/IpView" pc="268436037" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="178" parent="globals/IpView" pc="268436041" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="180" parent="globals/IpView" pc="268436064" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="181" parent="globals/IpView" pc="268436071" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="182" parent="globals/IpView" pc="268436078" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="183" parent="globals/IpView" pc="268436103" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="185" parent="globals/IpView" pc="268436119" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="186" parent="globals/IpView" pc="268436136" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="190" parent="globals/IpView" pc="268436177" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="191" parent="globals/IpView" pc="268436202" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="13" lineNum="192" parent="globals/IpView" pc="268436255" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="14" lineNum="14" parent="globals/IpView" pc="268436297" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="14" lineNum="15" parent="globals/IpView" pc="268436299" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="14" lineNum="16" parent="globals/IpView" pc="268436317" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="14" lineNum="19" parent="globals/IpView" pc="268436340" symbol="initialize"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="64" parent="globals/IpView" pc="268436370" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="65" parent="globals/IpView" pc="268436374" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="66" parent="globals/IpView" pc="268436387" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="67" parent="globals/IpView" pc="268436400" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="69" parent="globals/IpView" pc="268436407" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="70" parent="globals/IpView" pc="268436429" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="72" parent="globals/IpView" pc="268436443" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="78" parent="globals/IpView" pc="268436488" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="81" parent="globals/IpView" pc="268436505" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="82" parent="globals/IpView" pc="268436515" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="83" parent="globals/IpView" pc="268436522" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="85" parent="globals/IpView" pc="268436529" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="87" parent="globals/IpView" pc="268436551" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="90" parent="globals/IpView" pc="268436593" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="94" parent="globals/IpView" pc="268436635" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="97" parent="globals/IpView" pc="268436677" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="101" parent="globals/IpView" pc="268436719" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="104" parent="globals/IpView" pc="268436761" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="107" parent="globals/IpView" pc="268436803" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="114" parent="globals/IpView" pc="268436923" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="115" parent="globals/IpView" pc="268436939" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="116" parent="globals/IpView" pc="268436946" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="118" parent="globals/IpView" pc="268436953" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="119" parent="globals/IpView" pc="268436963" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="120" parent="globals/IpView" pc="268436973" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="122" parent="globals/IpView" pc="268436992" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="125" parent="globals/IpView" pc="268437034" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="129" parent="globals/IpView" pc="268437076" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="132" parent="globals/IpView" pc="268437118" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="136" parent="globals/IpView" pc="268437160" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="139" parent="globals/IpView" pc="268437202" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="15" lineNum="142" parent="globals/IpView" pc="268437244" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="39" parent="globals/IpView" pc="268437365" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="40" parent="globals/IpView" pc="268437367" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="45" parent="globals/IpView" pc="268437387" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="46" parent="globals/IpView" pc="268437401" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="47" parent="globals/IpView" pc="268437415" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="48" parent="globals/IpView" pc="268437429" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/source/IpView.mc" id="16" lineNum="49" parent="globals/IpView" pc="268437457" symbol="onUpdate"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B3282-00/source/Rez.mcgen" id="17" lineNum="14" parent="globals/Rez/Layouts" pc="268437475" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B3282-00/source/Rez.mcgen" id="17" lineNum="15" parent="globals/Rez/Layouts" pc="268437487" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B3282-00/source/Rez.mcgen" id="17" lineNum="16" parent="globals/Rez/Layouts" pc="268437592" symbol="MainLayout"/>
+<entry filename="/Users/kevinpotschien/Coding/ip-watch-face/bin/gen/006-B3282-00/source/Rez.mcgen" id="17" lineNum="18" parent="globals/Rez/Layouts" pc="268437644" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="26" symbol="dkred"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-<entry field="true" id="14" symbol="IpLogo"/>
-<entry id="16" method="true" symbol="MainLayout"/>
-<entry id="7" object="true" symbol="irregular_practiceView"/>
+<entry field="true" id="15" symbol="IpLogo"/>
+<entry field="true" id="8389671" symbol="screenWidth"/>
+<entry field="true" id="27" symbol="green"/>
+<entry id="17" method="true" symbol="MainLayout"/>
+<entry id="8389683" method="true" symbol="onSettingsChanged"/>
+<entry id="13" method="true" symbol="&lt;globals/IpView/&lt;&gt;drawClock&gt;"/>
+<entry field="true" id="25" symbol="dkgreen"/>
+<entry field="true" id="24" symbol="dkgray"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="17" symbol="AppName"/>
+<entry field="true" id="21" symbol="blue"/>
+<entry field="true" id="10" symbol="app"/>
+<entry field="true" id="18" symbol="AppName"/>
 <entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="23" symbol="dkblue"/>
 <entry id="8389345" symbol="rezId"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
+<entry field="true" id="9" symbol="_screenShape"/>
+<entry field="true" id="31" symbol="purple"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
 <entry field="true" id="8389065" symbol="locY"/>
 <entry field="true" id="8389064" symbol="locX"/>
+<entry field="true" id="34" symbol="yellow"/>
+<entry id="14" method="true" symbol="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389275" method="true" symbol="getApp"/>
 <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="8389672" symbol="screenHeight"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry field="true" id="8389063" symbol="identifier"/>
+<entry id="6" object="true" symbol="IpApp"/>
+<entry field="true" id="33" symbol="white"/>
+<entry id="12" method="true" symbol="&lt;globals/IpView/&lt;&gt;drawCircle&gt;"/>
+<entry field="true" id="20" symbol="black"/>
+<entry id="7" object="true" symbol="IpView"/>
 <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-<entry field="true" id="11" symbol="&lt;globals/irregular_practiceView/&lt;&gt;screenHeight&gt;"/>
+<entry field="true" id="19" symbol="bgcolorT"/>
+<entry field="true" id="28" symbol="ltgray"/>
+<entry field="true" id="29" symbol="orange"/>
 <entry id="8388644" module="true" symbol="System"/>
-<entry id="10" method="true" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;"/>
+<entry field="true" id="32" symbol="red"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry field="true" id="16" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389350" module="true" symbol="globals"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
-<entry id="8" method="true" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;"/>
 <entry id="8388702" method="true" symbol="initialize"/>
-<entry field="true" id="12" symbol="&lt;globals/irregular_practiceView/&lt;&gt;screenWidth&gt;"/>
+<entry field="true" id="22" symbol="displayBattery_title"/>
 <entry id="8389279" method="true" symbol="onStart"/>
-<entry id="9" method="true" symbol="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="13" module="true" symbol="Layouts"/>
-<entry id="6" object="true" symbol="irregular_practiceApp"/>
+<entry field="true" id="30" symbol="pink"/>
+<entry id="11" method="true" symbol="&lt;globals/IpView/&lt;&gt;drawBattery&gt;"/>
+<entry id="8" module="true" symbol="Layouts"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
-<entry arg="true" endPc="268435759" name="dc" stackId="1" startPc="268435548"/>
-<entry endPc="268435758" name="clockTime" stackId="2" startPc="268435552"/>
-<entry endPc="268435758" name="hours" stackId="3" startPc="268435552"/>
-<entry endPc="268435758" name="minutes" stackId="4" startPc="268435552"/>
-<entry endPc="268435758" name="x" stackId="5" startPc="268435552"/>
-<entry endPc="268435758" name="y" stackId="6" startPc="268435552"/>
-<entry endPc="268435758" name="yOffset" stackId="7" startPc="268435552"/>
-<entry endPc="268435758" name="xSpread" stackId="8" startPc="268435552"/>
-<entry arg="true" endPc="268435841" name="dc" stackId="1" startPc="268435760"/>
-<entry arg="true" endPc="268436101" name="dc" stackId="1" startPc="268435842"/>
-<entry endPc="268436100" name="battery" stackId="2" startPc="268435846"/>
-<entry endPc="268436100" name="height" stackId="3" startPc="268435846"/>
-<entry endPc="268436100" name="width" stackId="4" startPc="268435846"/>
-<entry endPc="268436100" name="x" stackId="5" startPc="268435846"/>
-<entry endPc="268436100" name="y" stackId="6" startPc="268435846"/>
-<entry arg="true" endPc="268437117" name="dc" stackId="1" startPc="268436123"/>
-<entry endPc="268437116" name="displayHeight" stackId="2" startPc="268436127"/>
-<entry endPc="268437116" name="displayWidth" stackId="3" startPc="268436127"/>
-<entry endPc="268437116" name="strokeWidth" stackId="4" startPc="268436127"/>
-<entry endPc="268437116" name="clockTime" stackId="5" startPc="268436127"/>
-<entry endPc="268437116" name="min" stackId="6" startPc="268436127"/>
-<entry endPc="268437116" name="minHandInset" stackId="7" startPc="268436127"/>
-<entry endPc="268437116" name="minHandWidth" stackId="8" startPc="268436127"/>
-<entry endPc="268437116" name="minRadians" stackId="9" startPc="268436127"/>
-<entry endPc="268437116" name="minX1" stackId="10" startPc="268436127"/>
-<entry endPc="268437116" name="minY1" stackId="11" startPc="268436127"/>
-<entry endPc="268437116" name="minX2" stackId="12" startPc="268436127"/>
-<entry endPc="268437116" name="minY2" stackId="13" startPc="268436127"/>
-<entry endPc="268437116" name="minX3" stackId="14" startPc="268436127"/>
-<entry endPc="268437116" name="minY3" stackId="15" startPc="268436127"/>
-<entry endPc="268437116" name="hour" stackId="16" startPc="268436127"/>
-<entry endPc="268437116" name="hourHandInset" stackId="17" startPc="268436127"/>
-<entry endPc="268437116" name="hoursHandWidth" stackId="18" startPc="268436127"/>
-<entry endPc="268437116" name="hourDeg" stackId="19" startPc="268436127"/>
-<entry endPc="268437116" name="minDeg" stackId="20" startPc="268436127"/>
-<entry endPc="268437116" name="hourRadians" stackId="21" startPc="268436127"/>
-<entry endPc="268437116" name="hourX1" stackId="22" startPc="268436127"/>
-<entry endPc="268437116" name="hourY1" stackId="23" startPc="268436127"/>
-<entry endPc="268437116" name="hourX2" stackId="24" startPc="268436127"/>
-<entry endPc="268437116" name="hourY2" stackId="25" startPc="268436127"/>
-<entry endPc="268437116" name="hourX3" stackId="26" startPc="268436127"/>
-<entry endPc="268437116" name="hourY3" stackId="27" startPc="268436127"/>
-<entry arg="true" endPc="268437182" name="dc" stackId="1" startPc="268437118"/>
-<entry arg="true" endPc="268437438" name="dc" stackId="1" startPc="268437253"/>
-<entry endPc="268437438" name="rez_cmp_local_bitmap_IpLogo" stackId="2" startPc="268437265"/>
+<entry arg="true" endPc="268435843" name="dc" stackId="1" startPc="268435632"/>
+<entry endPc="268435842" name="clockTime" stackId="2" startPc="268435636"/>
+<entry endPc="268435842" name="hours" stackId="3" startPc="268435636"/>
+<entry endPc="268435842" name="minutes" stackId="4" startPc="268435636"/>
+<entry endPc="268435842" name="x" stackId="5" startPc="268435636"/>
+<entry endPc="268435842" name="y" stackId="6" startPc="268435636"/>
+<entry endPc="268435842" name="yOffset" stackId="7" startPc="268435636"/>
+<entry endPc="268435842" name="xSpread" stackId="8" startPc="268435636"/>
+<entry arg="true" endPc="268435925" name="dc" stackId="1" startPc="268435844"/>
+<entry arg="true" endPc="268436036" name="dc" stackId="1" startPc="268435926"/>
+<entry endPc="268436035" name="strokeWidth" stackId="2" startPc="268435930"/>
+<entry arg="true" endPc="268436296" name="dc" stackId="1" startPc="268436037"/>
+<entry endPc="268436295" name="battery" stackId="2" startPc="268436041"/>
+<entry endPc="268436295" name="height" stackId="3" startPc="268436041"/>
+<entry endPc="268436295" name="width" stackId="4" startPc="268436041"/>
+<entry endPc="268436295" name="x" stackId="5" startPc="268436041"/>
+<entry endPc="268436295" name="y" stackId="6" startPc="268436041"/>
+<entry arg="true" endPc="268437364" name="dc" stackId="1" startPc="268436370"/>
+<entry endPc="268437363" name="displayHeight" stackId="2" startPc="268436374"/>
+<entry endPc="268437363" name="displayWidth" stackId="3" startPc="268436374"/>
+<entry endPc="268437363" name="strokeWidth" stackId="4" startPc="268436374"/>
+<entry endPc="268437363" name="clockTime" stackId="5" startPc="268436374"/>
+<entry endPc="268437363" name="min" stackId="6" startPc="268436374"/>
+<entry endPc="268437363" name="minHandInset" stackId="7" startPc="268436374"/>
+<entry endPc="268437363" name="minHandWidth" stackId="8" startPc="268436374"/>
+<entry endPc="268437363" name="minRadians" stackId="9" startPc="268436374"/>
+<entry endPc="268437363" name="minX1" stackId="10" startPc="268436374"/>
+<entry endPc="268437363" name="minY1" stackId="11" startPc="268436374"/>
+<entry endPc="268437363" name="minX2" stackId="12" startPc="268436374"/>
+<entry endPc="268437363" name="minY2" stackId="13" startPc="268436374"/>
+<entry endPc="268437363" name="minX3" stackId="14" startPc="268436374"/>
+<entry endPc="268437363" name="minY3" stackId="15" startPc="268436374"/>
+<entry endPc="268437363" name="hour" stackId="16" startPc="268436374"/>
+<entry endPc="268437363" name="hourHandInset" stackId="17" startPc="268436374"/>
+<entry endPc="268437363" name="hoursHandWidth" stackId="18" startPc="268436374"/>
+<entry endPc="268437363" name="hourDeg" stackId="19" startPc="268436374"/>
+<entry endPc="268437363" name="minDeg" stackId="20" startPc="268436374"/>
+<entry endPc="268437363" name="hourRadians" stackId="21" startPc="268436374"/>
+<entry endPc="268437363" name="hourX1" stackId="22" startPc="268436374"/>
+<entry endPc="268437363" name="hourY1" stackId="23" startPc="268436374"/>
+<entry endPc="268437363" name="hourX2" stackId="24" startPc="268436374"/>
+<entry endPc="268437363" name="hourY2" stackId="25" startPc="268436374"/>
+<entry endPc="268437363" name="hourX3" stackId="26" startPc="268436374"/>
+<entry endPc="268437363" name="hourY3" stackId="27" startPc="268436374"/>
+<entry arg="true" endPc="268437474" name="dc" stackId="1" startPc="268437365"/>
+<entry arg="true" endPc="268437660" name="dc" stackId="1" startPc="268437475"/>
+<entry endPc="268437660" name="rez_cmp_local_bitmap_IpLogo" stackId="2" startPc="268437487"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
-<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IpLogo"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="black"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="white"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="bgcolorT"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="red"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="yellow"/>
 <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkblue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="green"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="displayBattery_title"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="blue"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkred"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="orange"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkgray"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ltgray"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="IpLogo"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="purple"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="dkgreen"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pink"/>
 </annotations>
 <dataEntryOffsetMappings>
 <dataEntry label="globals" offset="63" parentId="" symbolId="globals" type="module"/>
-<dataEntry label="globals/irregular_practiceView" offset="134" parentId="globals" symbolId="irregular_practiceView" type="class"/>
-<dataEntry label="globals/Rez" offset="237" parentId="globals" symbolId="Rez" type="module"/>
-<dataEntry label="globals/irregular_practiceApp" offset="292" parentId="globals" symbolId="irregular_practiceApp" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="363" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="410" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="449" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/IpApp" offset="134" parentId="globals" symbolId="IpApp" type="class"/>
+<dataEntry label="globals/Rez" offset="213" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/IpView" offset="268" parentId="globals" symbolId="IpView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="395" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="442" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="481" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
-<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="irregular_practiceView" startPc="268435460">
+<functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="IpApp" startPc="268435460">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435528" name="&lt;init&gt;" parent="Rez" startPc="268435505">
+<functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="Rez" startPc="268435505">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="irregular_practiceApp" startPc="268435529">
+<functionEntry accessMode="public" endPc="268435542" name="&lt;init&gt;" parent="IpView" startPc="268435524">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="private" endPc="268435759" name="&lt;globals/irregular_practiceView/&lt;&gt;drawHoursMinutes&gt;" parent="irregular_practiceView" startPc="268435548">
-<param id="dc"/>
+<functionEntry accessMode="public" endPc="268435545" name="onStart" parent="IpApp" startPc="268435543">
+<param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435841" name="onLayout" parent="irregular_practiceView" startPc="268435760">
-<param id="dc"/>
+<functionEntry accessMode="public" endPc="268435564" name="onSettingsChanged" parent="IpApp" startPc="268435546">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="private" endPc="268436101" name="&lt;globals/irregular_practiceView/&lt;&gt;drawBattery&gt;" parent="irregular_practiceView" startPc="268435842">
-<param id="dc"/>
+<functionEntry accessMode="public" endPc="268435607" name="getInitialView" parent="IpApp" startPc="268435565">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268436122" name="initialize" parent="irregular_practiceView" startPc="268436102">
+<functionEntry accessMode="public" endPc="268435628" name="initialize" parent="IpApp" startPc="268435608">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="private" endPc="268437117" name="&lt;globals/irregular_practiceView/&lt;&gt;drawClock&gt;" parent="irregular_practiceView" startPc="268436123">
-<param id="dc"/>
-<documentation/>
-</functionEntry>
-<functionEntry accessMode="public" endPc="268437182" name="onUpdate" parent="irregular_practiceView" startPc="268437118">
-<param id="dc"/>
+<functionEntry accessMode="public" endPc="268435631" name="onStop" parent="IpApp" startPc="268435629">
+<param id="state"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -230,21 +273,34 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437185" name="onStart" parent="irregular_practiceApp" startPc="268437183">
-<param id="state"/>
+<functionEntry accessMode="private" endPc="268435843" name="&lt;globals/IpView/&lt;&gt;drawHoursMinutes&gt;" parent="IpView" startPc="268435632">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437228" name="getInitialView" parent="irregular_practiceApp" startPc="268437186">
+<functionEntry accessMode="public" endPc="268435925" name="onLayout" parent="IpView" startPc="268435844">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437249" name="initialize" parent="irregular_practiceApp" startPc="268437229">
+<functionEntry accessMode="private" endPc="268436036" name="&lt;globals/IpView/&lt;&gt;drawCircle&gt;" parent="IpView" startPc="268435926">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437252" name="onStop" parent="irregular_practiceApp" startPc="268437250">
-<param id="state"/>
+<functionEntry accessMode="private" endPc="268436296" name="&lt;globals/IpView/&lt;&gt;drawBattery&gt;" parent="IpView" startPc="268436037">
+<param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437438" name="MainLayout" parent="Layouts" startPc="268437253">
+<functionEntry accessMode="public" endPc="268436369" name="initialize" parent="IpView" startPc="268436297">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="private" endPc="268437364" name="&lt;globals/IpView/&lt;&gt;drawClock&gt;" parent="IpView" startPc="268436370">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437474" name="onUpdate" parent="IpView" startPc="268437365">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437660" name="MainLayout" parent="Layouts" startPc="268437475">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

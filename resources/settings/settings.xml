@@ -1,0 +1,25 @@
+<settings>
+    <setting propertyKey="@Properties.displayBattery" title="@Strings.displayBattery_title">
+        <settingConfig type="boolean" />
+    </setting>
+
+    <!-- <setting propertyKey="@Properties.bgcolor" title="@Strings.bgcolorT">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.white</listEntry>
+            <listEntry value="1">@Strings.ltgray</listEntry>
+            <listEntry value="2">@Strings.dkgray</listEntry>
+            <listEntry value="3">@Strings.black</listEntry>
+            <listEntry value="4">@Strings.red</listEntry>
+            <listEntry value="5">@Strings.dkred</listEntry>
+            <listEntry value="6">@Strings.orange</listEntry>
+            <listEntry value="7">@Strings.yellow</listEntry>
+            <listEntry value="8">@Strings.green</listEntry>
+            <listEntry value="9">@Strings.dkgreen</listEntry>
+            <listEntry value="10">@Strings.blue</listEntry>
+            <listEntry value="11">@Strings.dkblue</listEntry>
+            <listEntry value="12">@Strings.purple</listEntry>
+            <listEntry value="13">@Strings.pink</listEntry>
+        </settingConfig>
+    </setting> -->
+
+</settings>
